@@ -8,7 +8,7 @@ class Video(models.Model):
         max_length=11, null=False, blank=True, primary_key=True)
     title = models.TextField(db_index=True, null=True, blank=True)
     description = models.TextField(null=True, blank=True)
-    duration = models.CharField(max_length=50, null=True, blank=False)
+    duration = models.IntegerField(null=True, blank=False)
     publish_date = models.CharField(max_length=50, null=True, blank=False)
     view_count = models.IntegerField(null=False, blank=False, default=0)
     like_count = models.IntegerField(null=False, blank=False, default=0)
@@ -16,6 +16,7 @@ class Video(models.Model):
     youtube_category = models.CharField(max_length=50, null=True, blank=False)
     associated_categories = models.CharField(
         max_length=500, null=True, blank=False)
+    vls = models.FloatField(null=True, blank=False, default=0)
 
     def __str__(self):
         return self.video_id

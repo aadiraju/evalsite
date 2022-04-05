@@ -1,0 +1,749 @@
+video_id,title,description,duration,publish_date,view_count,like_count,comment_count,youtube_category,categories,VLS
+3jMaKlNBjug,For Loop Java Tutorial,"Full Java Course: https://course.alexlorenlee.com/cours...
+If you're new to programming, I HIGHLY RECOMMEND solving challenges on Edabit: https://edabit.com/?ref=alexlee
+Take the Computer Science Fundamentals Course on Brilliant for free (plus 20% off subscription): https://brilliant.sjv.io/alexlee
+Get my favorite programming audiobook for free! https://audibletrial.com/alexleefree
+20% off Brain.fm (productivity hack): https://www.brain.fm/alexlee20
+Get Tabnine autocomplete for free: https://bit.ly/3ilJLMQ
+Get SERVICE HOURS as an online tutor or get FREE ONLINE TUTORING for K-8 students: https://connectmego.org/
+
+Disclosure: Brilliant, Audible, Brain.fm, Edabit and Tabnine links provided are linked to my affiliate accounts & support the channel.
+
+This for loop java tutorial will show you how to use for loops in java!
+
+You can repeat code as many times as you want by using a for loop. For loops in java are just a block of code, that you can adjust to repeat what you want. In the first for loop in java example we repeated something very easy, ""I love dogs!"". Just replace that line with what you want and BOOM, you're done!
+
+The name ""for loop"" can be a little tricky to get used to, but don't worry too much about it right now! They aren't too bad :) If you followed along, congrats! You learned-by-doing!
+
+Source Code: https://github.com/alexlorenlee/JavaTutorialCode/blob/master/Loops/ForLoops.java
+
+I hope you enjoyed this for loop java tutorial! I like to have a nice mix of tutorials and actual projects for you all :)
+
+Do you want to learn how to code from scratch, in Java? Check out my Java Tutorial For Beginners: https://youtu.be/woJb2hAfkO0
+
+If you could repeat anything for as much as you wanted, what would you repeat? -
+
+Free tips and programs: http://alexlorenlee.com
+Programmer Humor: https://www.xonot.com - Promo code: ""ALEX10"" for 10% off
+
+Recommended Channels to Subscribe to
+Career Karma: https://youtube.com/channel/UCkCwv67-...
+TheNewBoston: https://youtube.com/user/thenewboston
+
+~
+https://discord.com/invite/Yk3uqST
+https://instagram.com/alexlorenlee
+https://youtube.com/channel/UCLkeDGcXfiKlN2imazwkg4A (2nd channel)
+
+Alex Lee",8,2018-11-08T20:00:00Z,220257,6830,322,22,For Loops,0.06747730120761478
+XHgC6Md8L9o,Java Tutorial: The for Loop in Java,"Java For Loop Tutorial: This java tutorial on for loop will teach you about how to use the for loop in java. The for loop in java is about the initialization, condition and the updating. This video explains how each of these things work in java!
+►This playlist is a part of my Complete Java Course playlist: https://www.youtube.com/playlist?list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q
+►Source Code + Notes - https://codewithharry.com/videos/java-tutorials-for-beginners-23
+►Ultimate Java CheatSheet: https://codewithharry.com/videos/java-tutorials-for-beginners-1
+►Checkout my English channel here: https://www.youtube.com/ProgrammingWithHarry
+►Click here to subscribe - https://www.youtube.com/channel/UCeVMnSShP_Iviwkknt83cww
+
+Best Hindi Videos For Learning Programming:
+►Learn Python In One Video - https://www.youtube.com/watch?v=ihk_Xglr164
+
+►Python Complete Course In Hindi - https://www.youtube.com/playlist?list=PLu0W_9lII9agICnT8t4iYVSZ3eykIAOME
+
+►C Language Complete Course In Hindi -  
+https://www.youtube.com/playlist?list=PLu0W_9lII9aiXlHcLx-mDH1Qul38wD3aR&disable_polymer=true
+
+►JavaScript Complete Course In Hindi - 
+ https://www.youtube.com/playlist?list=PLu0W_9lII9ajyk081To1Cbt2eI5913SsL
+
+►Learn JavaScript in One Video - https://www.youtube.com/watch?v=onbBV0uFVpo
+
+►Learn PHP In One Video - https://www.youtube.com/watch?v=xW7ro3lwaCI
+
+►Django Complete Course In Hindi -  
+https://www.youtube.com/playlist?list=PLu0W_9lII9ah7DDtYtflgwMwpT3xmjXY9
+
+►Machine Learning Using Python - https://www.youtube.com/playlist?list=PLu0W_9lII9ai6fAMHp-acBmJONT7Y4BSG
+
+►Creating & Hosting A Website (Tech Blog) Using Python - https://www.youtube.com/playlist?list=PLu0W_9lII9agAiWp6Y41ueUKx1VcTRxmf
+
+►Advanced Python Tutorials - https://www.youtube.com/playlist?list=PLu0W_9lII9aiJWQ7VhY712fuimEpQZYp4
+
+►Object Oriented Programming In Python - https://www.youtube.com/playlist?list=PLu0W_9lII9ahfRrhFcoB-4lpp9YaBmdCP
+
+►Python Data Science and Big Data Tutorials - https://www.youtube.com/playlist?list=PLu0W_9lII9agK8pojo23OHiNz3Jm6VQCH
+
+Follow Me On Social Media
+►Website (created using Flask) - http://www.codewithharry.com
+►Facebook - https://www.facebook.com/CodeWithHarry
+►Instagram - https://www.instagram.com/codewithharry/
+►Personal Facebook A/c - https://www.facebook.com/geekyharis
+Twitter - https://twitter.com/Haris_Is_Here",20,2020-10-01T11:30:02Z,192495,10486,760,27,For Loops,0.1111988487844037
+GwcisLY5avc,The For Loop in Java,"Java Programming: The For Loop in Java Programming
+Topics Discussed:
+1. The for loop.
+2. For loop vs. while loop.
+3. Infinite for loop.
+4. How to use a for loop just like a while loop.
+
+Follow Neso Academy on Instagram: @nesoacademy (https://bit.ly/2XP63OE)
+
+Contribute: http://www.nesoacademy.org/donate
+
+Memberships: https://bit.ly/2U7YSPI
+
+Books: http://www.nesoacademy.org/recommended-books
+
+Website ► http://www.nesoacademy.org/
+Forum ► https://forum.nesoacademy.org/
+Facebook ► https://goo.gl/Nt0PmB
+Twitter      ► https://twitter.com/nesoacademy
+
+Music:
+Axol x Alex Skrindo - You [NCS Release]
+
+#JavaByNeso #JavaProgramming #ForLoop",8,2020-03-19T15:30:02Z,31031,650,37,27,For Loops,0.004529344096158465
+6djggrlkHY8,"Java For Beginners: While, Do While & For Loops (7/10)","Want more? Explore the library at https://www.codecourse.com/lessons
+
+Official site
+https://www.codecourse.com
+
+Twitter
+https://twitter.com/teamcodecourse",11,2014-06-13T12:00:02Z,387483,4385,190,27,"For Loops, While Loops",0.03101792171030223
+t8mmNbgKA8w,For Each Loop Java Tutorial - How to Make a For Each Loop in Java,"Full Java Course: https://course.alexlorenlee.com/cours...
+If you're new to programming, I HIGHLY RECOMMEND solving challenges on Edabit: https://edabit.com/?ref=alexlee
+Take the Computer Science Fundamentals Course on Brilliant for free (plus 20% off subscription): https://brilliant.sjv.io/alexlee
+Get my favorite programming audiobook for free! https://audibletrial.com/alexleefree
+20% off Brain.fm (productivity hack): https://www.brain.fm/alexlee20
+Get Tabnine autocomplete for free: https://bit.ly/3ilJLMQ
+
+Disclosure: Brilliant, Audible, Brain.fm, Edabit and Tabnine links provided are linked to my affiliate accounts & support the channel.
+
+A for each loop is easier to read and type than a regular for loop, and it's used to loop through elements in an array or other data structure.
+
+Learn java in just 13 minutes: https://youtu.be/RRubcjpTkks
+
+For each loops can be tricky at first... But SURELY you'll get it :) If you followed along, congrats! You learned by-doing!
+
+I hope you enjoyed this for each loop java tutorial! I like to have a nice mix of java tutorials and actual projects for you all :)
+
+Was this able to help you learn how to make a for each loop in java? -
+
+Free tips and programs: http://alexlorenlee.com
+Programmer Humor: https://www.xonot.com - Promo code: ""ALEX10"" for 10% off
+
+Recommended Channels to Subscribe to
+Career Karma: https://youtube.com/channel/UCkCwv67-HTCzIhxLG8aHOQQ
+TheNewBoston: https://youtube.com/user/thenewboston
+
+~
+https://discord.com/invite/Yk3uqST
+https://instagram.com/alexlorenlee
+https://youtube.com/channel/UCLkeDGcXfiKlN2imazwkg4A (2nd channel)
+
+Alex Lee",9,2019-10-17T19:00:02Z,70745,2621,103,27,For Loops,0.038542576350178
+ROHp1tKTYQ4,For Loops In Java,This is a demonstration of how to create a For Loop in Java.,8,2018-10-04T20:52:05Z,75,1,0,27,For Loops,-0.07745363977484603
+LGn-NhUzb6Q,"Introduction to Loops in Java | For, While, Do While, Infinite Loops | Java Training | Edureka","🔥 Java Certification Training - https://www.edureka.co/java-j2ee-training-course
+
+This Edureka video on ""loops in java"" will provide you detailed knowledge about Loops in Java along with some examples in order to provide you with a deep understanding of their functionality. This video will cover the following topics:
+1. Conditional Statements in Java
+2. Loops in Java
+3. For Loop
+4. While Loop
+5. Do While Loop
+6. Infinite Loop
+
+** Edureka Elevate Program. Learn now, pay later: http://bit.ly/38LXMfI **
+Complete Java Playlist: http://bit.ly/2XcYNH5
+Complete Blog Series: http://bit.ly/2YoabkT
+Java Podcast: http://bit.ly/2xmjVAv
+
+To subscribe to our channel and hit the bell icon to never miss an update from us in the future: https://goo.gl/6ohpTV 
+
+Instagram: https://www.instagram.com/edureka_learning
+Slideshare: https://www.slideshare.net/EdurekaIN/
+Facebook: https://www.facebook.com/edurekaIN/
+Twitter: https://twitter.com/edurekain
+LinkedIn: https://www.linkedin.com/company/edureka 
+Castbox:  https://castbox.fm/networks/505?country=in     
+
+----------------------------------------------------------------------------------------------------------  
+
+About The Course:
+
+Edureka’s Advanced Java Certification Training is designed for students and professionals who want to be a Java Developer. This 42-hour course which will cover both core and advanced Java concepts like Java Array, Collections, Database connectivity, Threads, Exception Handling, JSP, Servlets, XML handling etc. You will also learn various Java frameworks like Hibernate and Spring.
+
+----------------------------------------------------------------------------------------------------------  
+
+What are the Objectives of our Java Online Course?
+
+Our Java Certification Training is designed by industry experts to make you a Certified Java Developer. Following are the objectives our course offers:
+In-depth knowledge of Java data types, conditional statements and loops, multi-threading and exception handling, a database using hibernate framework
+Comprehensive knowledge of object-oriented programming through Java using Classes, Objects and various Java concepts like Abstract, Final etc and parse XML files using DOM and SAX
+The capability to implement arrays, functions and string handling techniques, JDBC to communicate with Database, SOA using web services
+The exposure to many real-life industry-based projects
+Projects which are diverse in nature covering banking, telecommunication, social media, insurance, and e-commerce domains
+Rigorous involvement of an SME throughout the Java Training to learn industry standards and best practices
+
+----------------------------------------------------------------------------------------------------------  
+
+Why Should you go for Java Online Training Certification?
+
+Java is a general-purpose, class-based, object-oriented computer programming language that was designed by James Gosling at Sun Microsystems in 1995. Key Features of Java:
+Platform Independent
+Usability of Java
+Open Source
+Android
+Hadoop in Java
+Despite having a tough competition on the server side from Microsoft and other companies, Java is doing extremely well on mobile platforms, thanks to Android! It has also been the primary language for Hadoop Developers.
+
+----------------------------------------------------------------------------------------------------------  
+
+Who should go for the Java Certification Course?
+
+This course is designed for professionals aspiring to become:
+Java Developers
+Programmers
+Web Developers
+Web Designers
+Programming Hobbyists
+Database Administrators
+Youngsters who want to kick-start their career are the key beneficiaries of this course
+
+----------------------------------------------------------------------------------------------------------  
+
+What are the pre-requisites for our Java Training?
+
+There is no pre-requisite for this course. Prior exposure to object-oriented programming concepts is not required, but beneficial.
+
+----------------------------------------------------------------------------------------------------------  
+For more information, please write back to us at sales@edureka.in or call us at IND: 9606058406 / US: 18338555775 (toll-free)",28,2019-08-20T15:09:45Z,30824,414,7,27,"For Loops, While Loops",0.002814321467612249
+sk9xYje9XAQ,Nested Loops in Java,"Full Java Course: https://course.alexlorenlee.com/cours...
+If you're new to programming, I HIGHLY RECOMMEND solving challenges on Edabit: https://edabit.com/?ref=alexlee
+Take the Computer Science Fundamentals Course on Brilliant for free (plus 20% off subscription): https://brilliant.sjv.io/alexlee
+Get my favorite programming audiobook for free! https://audibletrial.com/alexleefree
+20% off Brain.fm (productivity hack): https://www.brain.fm/alexlee20
+Get Tabnine autocomplete for free: https://bit.ly/3ilJLMQ
+Get SERVICE HOURS as an online tutor or get FREE ONLINE TUTORING for K-8 students: https://connectmego.org/
+
+Disclosure: Brilliant, Audible, Brain.fm, Edabit and Tabnine links provided are linked to my affiliate accounts & support the channel.
+
+🌅 Source Code - https://github.com/alexlorenlee/JavaTutorialCode/blob/master/Loops/NestedLoops.java
+
+Nested loops in java are just a for loop inside a for loop. A common way to use nested loops in java is to get elements from a 2d array. To do that, your outer for loops takes care of the rows and your inner for loop takes care of the columns. 
+
+Java loops can be VERY tricky, but don't worry too much about it right now! Use the code I provided and after time you'll get the hang of java loops :) If you followed along, congrats! You learned-by-doing!
+
+I hope you enjoyed this tutorial on nested for loops java! I like to have a nice mix of tutorials and actual projects for you all :)
+
+Do you want to learn how to code from scratch, in Java? Check out my Java Tutorial For Beginners: https://youtu.be/woJb2hAfkO0
+
+How are you using nested for loops in java? -
+
+Free tips and programs: http://alexlorenlee.com
+Programmer Humor: https://www.xonot.com - Promo code: ""ALEX10"" for 10% off
+
+Recommended Channels to Subscribe to
+Career Karma: https://youtube.com/channel/UCkCwv67-...
+TheNewBoston: https://youtube.com/user/thenewboston
+
+~
+https://discord.com/invite/Yk3uqST
+https://instagram.com/alexlorenlee
+https://youtube.com/channel/UCLkeDGcXfiKlN2imazwkg4A (2nd channel)
+
+Alex Lee",10,2018-11-15T20:00:03Z,169543,3255,203,22,"For Loops, Nested Loops",0.036752987370645175
+tCJZiHEpHbg,Introduction to Loops in Java Programming - For Beginners,"Hey there!
+This is Teja!
+This video is going to be a Java Programming Video Tutorial.
+In this video I will be teaching you about Looping in Java Programming.
+Generally, a Loop statement is used to execute a group of statements or a single statement more than once, according to the need of a Programmer.
+In Java, there are 3 types of loops and they are
+1. For loop
+2. While loop
+3. Do-While loop
+Watch the video for explanation on all the three types of loops.
+If you have any doubts regarding this video, feel free to comment below!
+For more Java Programs , visit my blog : http://bluejforicse.wordpress.com
+Like my Facebook Page : http://fb.com/techraj156
+Follow me on Twitter : http://twitter.com/techraj156
+Visit my website : http://techraj156.com
+Email ID : anonymoushacker156@gmail.com
+Thanks For Watching!
+Cheers!
+
+-~-~~-~~~-~~-~-
+Please watch: ""How the INTERNET actually works? "" 
+https://www.youtube.com/watch?v=U0mzA1AD_CY
+-~-~~-~~~-~~-~-",29,2016-10-24T03:24:26Z,47024,629,36,27,For Loops,0.008452418800476806
+CwjSpUIFi7w,Nested Loops in Java,"Java Programming: Nested Loops in Java Programming
+Topics Discussed:
+1. Nested loops in Java.
+2. Drawing a 10x10 multiplication table using nested loops in Java.
+
+Follow Neso Academy on Instagram: @nesoacademy (https://bit.ly/2XP63OE)
+
+Contribute: http://www.nesoacademy.org/donate
+
+Memberships: https://bit.ly/2U7YSPI
+
+Books: http://www.nesoacademy.org/recommended-books
+
+Website ► http://www.nesoacademy.org/
+Forum ► https://forum.nesoacademy.org/
+Facebook ► https://goo.gl/Nt0PmB
+Twitter      ► https://twitter.com/nesoacademy
+
+Music:
+Axol x Alex Skrindo - You [NCS Release]
+
+#JavaByNeso #JavaProgramming #NestedLoops",10,2020-03-20T15:00:05Z,84264,2345,147,27,"For Loops, Nested Loops",0.033818017701951184
+SGJ9DpxGCkY,While Loop Java Tutorial,"Full Java Course: https://course.alexlorenlee.com/cours...
+If you're new to programming, I HIGHLY RECOMMEND solving challenges on Edabit: https://edabit.com/?ref=alexlee
+Take the Computer Science Fundamentals Course on Brilliant for free (plus 20% off subscription): https://brilliant.sjv.io/alexlee
+Get my favorite programming audiobook for free! https://audibletrial.com/alexleefree
+20% off Brain.fm (productivity hack): https://www.brain.fm/alexlee20
+Get Tabnine autocomplete for free: https://bit.ly/3ilJLMQ
+Get SERVICE HOURS as an online tutor or get FREE ONLINE TUTORING for K-8 students: https://connectmego.org/
+
+Disclosure: Brilliant, Audible, Brain.fm, Edabit and Tabnine links provided are linked to my affiliate accounts & support the channel.
+
+This is the exact code to write while loops in java! ✅I show how to use them in your programs.
+
+👑Start practicing now with 10 free java programs - http://alexlorenlee.com/
+🌅 Source Code - https://github.com/alexlorenlee/JavaTutorialCode/blob/master/Loops/WhileDo.java
+
+while(true) {
+
+}
+
+do {
+
+} while(true);
+
+These are the formats for how you create your while and do while loop in java. Now, you can replace ""true"" with an expression and whenever it's true, it will run the code in the curly braces.
+
+These java while loops can be trick at first... But SURELY you'll get it :) If you followed along, congrats! You learned-by-doing!
+
+I hope you enjoyed this while loop java tutorial! I like to have a nice mix of tutorials and actual projects for you all :)
+
+Do you want to learn how to code in java from scratch? Check out my Java Tutorial For Beginners: https://youtu.be/woJb2hAfkO0
+
+What are you using java while loops and do while loops for? -
+
+Free tips and programs: http://alexlorenlee.com
+Programmer Humor: https://www.xonot.com - Promo code: ""ALEX10"" for 10% off
+
+Recommended Channels to Subscribe to
+Career Karma: https://youtube.com/channel/UCkCwv67-...
+TheNewBoston: https://youtube.com/user/thenewboston
+
+~
+https://discord.com/invite/Yk3uqST
+https://instagram.com/alexlorenlee
+https://youtube.com/channel/UCLkeDGcXfiKlN2imazwkg4A (2nd channel)
+
+Alex Lee",9,2019-02-07T20:00:03Z,169604,4464,157,27,While Loops,0.050395436598065474
+GE5C_So1y00,Java Tutorial: While Loops in Java,"Introduction to Loops and While Loops in Java: This video talks about loops in java. Loops are very important java statements which allows a java programmer to execute a set of statements more than once repeatedly!
+►This playlist is a part of my Complete Java Course playlist: https://www.youtube.com/playlist?list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q
+►Source Code + Notes - https://codewithharry.com/videos/java-tutorials-for-beginners-21
+►Ultimate Java CheatSheet: https://codewithharry.com/videos/java-tutorials-for-beginners-1
+
+►Checkout my English channel here: https://www.youtube.com/ProgrammingWithHarry
+►Click here to subscribe - https://www.youtube.com/channel/UCeVMnSShP_Iviwkknt83cww
+
+Best Hindi Videos For Learning Programming:
+►Learn Python In One Video - https://www.youtube.com/watch?v=ihk_Xglr164
+
+►Python Complete Course In Hindi - https://www.youtube.com/playlist?list=PLu0W_9lII9agICnT8t4iYVSZ3eykIAOME
+
+►C Language Complete Course In Hindi -  
+https://www.youtube.com/playlist?list=PLu0W_9lII9aiXlHcLx-mDH1Qul38wD3aR&disable_polymer=true
+
+►JavaScript Complete Course In Hindi - 
+ https://www.youtube.com/playlist?list=PLu0W_9lII9ajyk081To1Cbt2eI5913SsL
+
+►Learn JavaScript in One Video - https://www.youtube.com/watch?v=onbBV0uFVpo
+
+►Learn PHP In One Video - https://www.youtube.com/watch?v=xW7ro3lwaCI
+
+►Django Complete Course In Hindi -  
+https://www.youtube.com/playlist?list=PLu0W_9lII9ah7DDtYtflgwMwpT3xmjXY9
+
+►Machine Learning Using Python - https://www.youtube.com/playlist?list=PLu0W_9lII9ai6fAMHp-acBmJONT7Y4BSG
+
+►Creating & Hosting A Website (Tech Blog) Using Python - https://www.youtube.com/playlist?list=PLu0W_9lII9agAiWp6Y41ueUKx1VcTRxmf
+
+►Advanced Python Tutorials - https://www.youtube.com/playlist?list=PLu0W_9lII9aiJWQ7VhY712fuimEpQZYp4
+
+►Object Oriented Programming In Python - https://www.youtube.com/playlist?list=PLu0W_9lII9ahfRrhFcoB-4lpp9YaBmdCP
+
+►Python Data Science and Big Data Tutorials - https://www.youtube.com/playlist?list=PLu0W_9lII9agK8pojo23OHiNz3Jm6VQCH
+
+Follow Me On Social Media
+►Website (created using Flask) - http://www.codewithharry.com
+►Facebook - https://www.facebook.com/CodeWithHarry
+►Instagram - https://www.instagram.com/codewithharry/
+►Personal Facebook A/c - https://www.facebook.com/geekyharis
+Twitter - https://twitter.com/Haris_Is_Here",17,2020-09-28T11:44:42Z,200383,15044,658,27,While Loops,0.15626927260125184
+g8GcFboF2rM,The While Loop in Java,"Java Programming: The While Loop in Java Programming
+Topics Discussed:
+1. Uses of loops in Java.
+2. Types of loops in Java.
+3. The While loop in Java.
+4. Infinite loops.
+
+Follow Neso Academy on Instagram: @nesoacademy (https://bit.ly/2XP63OE)
+
+Contribute: http://www.nesoacademy.org/donate
+
+Memberships: https://bit.ly/2U7YSPI
+
+Books: http://www.nesoacademy.org/recommended-books
+
+Website ► http://www.nesoacademy.org/
+Forum ► https://forum.nesoacademy.org/
+Facebook ► https://goo.gl/Nt0PmB
+Twitter      ► https://twitter.com/nesoacademy
+
+Music:
+Axol x Alex Skrindo - You [NCS Release]
+
+#JavaByNeso #JavaProgramming #WhileLoop",8,2020-03-16T14:30:03Z,29282,535,23,27,While Loops,0.0028907242907062745
+8ZuWD2CBjgs,Java Programming Tutorial - 13 - While Loop,"Join our community below for all the latest videos and tutorials!
+
+Website - https://thenewboston.com/
+Discord - https://discord.gg/thenewboston
+GitHub - https://github.com/thenewboston-developers
+Reddit - https://www.reddit.com/r/thenewboston/
+LinkedIn - https://www.linkedin.com/company/thenewbostoncoin/
+Facebook - https://www.facebook.com/thenewbostoncoin/
+Twitter - https://twitter.com/thenewboston_og
+Instagram - https://www.instagram.com/thenewbostoncoin/
+Twitch - https://www.twitch.tv/thenewboston/videos
+
+TNBC Donations: b6e21072b6ba2eae6f78bc3ade17f6a561fa4582d5494a5120617f2027d38797",4,2009-05-03T19:00:59Z,1170908,7351,775,26,While Loops,0.02415020843969979
+JTZIJj3s7HM,"For loops, While loops and Do-While loops in Java | Control Statements | Geekific","This second Control Statements video tackles the for loops, while loops and do-while loops in Java. Additionally, it expands on when and how we should use the 'break' and 'continue' statements. Knowing and understanding the use of these loops is a fundamental step in learning the Java programming language.
+
+If you found this video helpful, check other Geekific uploads:
+ - If, If-Else, Switch Statements and Switch Expressions in Java: https://youtu.be/ASq_PtmVPfQ
+ - Object-Oriented Programming Fundamentals: https://youtu.be/Vfk6sExu8-4
+ - Must Know Java Keywords!: https://youtu.be/0-41SMoV_TA
+ - Association, Aggregation and Composition Explained: https://youtu.be/sN2_CoB_kbw
+ - Generics and Wildcards in Java Made Simple: https://youtu.be/vqjA6dqugq8
+ - LinkedList Implementation in Java: https://youtu.be/IsWmLiNvaRM
+ - Functional Interfaces and Lambda Expressions in Java: https://youtu.be/HsOVdmmBS9E
+ - Java Streams Explained with Examples: https://youtu.be/W1ddeJAuGA4
+
+Stay updated on our weekly videos by subscribing to the channel: https://www.youtube.com/channel/UCXRZyv0cNwba6f0xCREAD_Q?sub_confirmation=1
+
+All the code snippets can be found on GitHub under: https://github.com/geekific-official/geekific-youtube/
+
+Timestamps:
+ 00:00 Introduction
+ 00:20 For-Loop
+ 02:13 Nested For-Loops
+ 02:57 For-Each Loop
+ 04:00 Labeled For-Loop
+ 04:43 Infinite For-Loop
+ 05:00 While Loop
+ 05:52 Do-While Loop
+ 06:42 While vs. Do-While Loops
+ 08:09 Break Statement
+ 09:32 Continue Statement
+ 10:55 Thanks for Watching!
+
+#Geekific #Java #Loops #ControlStatements",11,2021-01-02T14:00:03Z,440,6,0,27,While Loops,-0.05508731413278347
+2cj2WXBCQo0,while loop in java,"Java tutorial for beginners playlist
+https://www.youtube.com/playlist?list=PL6n9fhu94yhWizLudXueXf16yJzlwNrSc
+
+Healthy diet is very important both for the body and mind. If you like Aarvi Kitchen recipes, please support by sharing, subscribing and liking our YouTube channel. Hope you can help.
+https://www.youtube.com/channel/UC7sEwIXM_YfAMyonQCrGfWA/?sub_confirmation=1
+
+Syntax:
+while (condition) {
+ statement-1;
+ statement-2;
+ :
+ }
+                     
+While is entry controlled loop
+1. If condition is true, only then statements are executed
+2. Loop gets executed zero or more times
+3. Loop keeps executing till condition becomes false
+4. Do not forget to ensure termination of loop
+
+do while loop syntax:
+do {
+ statement-1;
+ statement-2;
+ :
+ } while (condition);
+
+do-while is exit controlled loop
+1. Statements get executed first and then condition gets evaluated
+2. If condition is false initially, loop will get executed once
+3. Loop keeps executing till condition becomes false
+
+break statement syntax:
+ break;
+
+1. Gets control out of the loop
+2. Breaks out immediately
+3. Control falls to statement after loop
+4. Stops only the loop in which it resides
+
+continue statement syntax:
+
+ continue;
+
+1. Immediately stops current iteration
+2. Jumps to next iteration
+3. Helps in ignoring certain iterations
+
+We have continue statement  in java. The continue keyword can be used in any of the loops. It causes loop to immediately stop the current iteration and immediately jump to next iteration
+
+int sum = 0;
+for (int i = 1; i [= 100; i++) {
+ if (i%2 == 0) {
+  continue;
+ }
+ sum += i;
+} 
+
+# Program 1
+
+public class BreakDemo {
+
+ public static void main(String[] args) {
+  
+  String string = ""This is a long long string"";
+  int numberOfOs = 0;
+  for (int i=0; i[string.length(); i++) {
+   if (string.charAt(i) == 'o') {
+    numberOfOs++;
+    System.out.println("" **** o found"");
+    continue;
+   }
+   System.out.println(""This is not o"");
+  }
+  System.out.println(""Number of Os "" + numberOfOs);
+ }
+ 
+}
+
+
+# Program 2
+package com.training.java;
+
+import java.util.Scanner;
+
+public class WhileDemo {
+  
+ public static void printLine() {
+  int numberOfAsterisks = 50;
+  while (numberOfAsterisks ]= 0) {
+   System.out.print(""*"");
+   numberOfAsterisks--;
+  }
+  System.out.println();
+ }
+ 
+ public static void main(String[] args) {
+  printLine();
+  
+  Scanner scanner = new Scanner(System.in);
+  int input;
+  do {
+   System.out.print(""Enter a number (-1 to exit) : "");
+   input = scanner.nextInt();
+   if (input [= 0) {
+    System.out.println(""Seems you are not interested !!"");
+   }
+   else if (input%2 == 0) {
+    System.out.println(""You entered an even number"");
+   }
+   else {
+    System.out.println(""You enetered an odd number"");
+   }
+  } while (input != -1);
+  
+  printLine();
+ }
+}",17,2017-04-10T20:35:24Z,12795,51,4,28,While Loops,-0.0026693840367994913
+6KqzoaeYH1k,Using while loop in java || Java,"Loops
+
+Loops can execute a block of code as long as a specified condition is reached.
+
+Loops are handy because they save time, reduce errors, and they make code more readable.
+
+
+
+
+
+#BackCoding
+#java
+#Programming",1,2021-09-20T05:22:03Z,2276,77,9,22,While Loops,-0.0810711314622463
+2E-UgePiOoo,The Do While Loop in Java,"Java Programming: The Do While Loop in Java Programming
+Topics Discussed:
+1. The do-while loop in Java.
+2. do-while loop vs. while loop.
+3. Reading a number between 1 and 10 using a do-while loop.
+
+Follow Neso Academy on Instagram: @nesoacademy (https://bit.ly/2XP63OE)
+
+Contribute: http://www.nesoacademy.org/donate
+
+Memberships: https://bit.ly/2U7YSPI
+
+Books: http://www.nesoacademy.org/recommended-books
+
+Website ► http://www.nesoacademy.org/
+Forum ► https://forum.nesoacademy.org/
+Facebook ► https://goo.gl/Nt0PmB
+Twitter      ► https://twitter.com/nesoacademy
+
+Music:
+Axol x Alex Skrindo - You [NCS Release]
+
+#JavaByNeso #JavaProgramming #DoWhileLoop",7,2020-03-18T16:30:00Z,29615,563,26,27,While Loops,0.0032227814239579283
+m2czL08d3lY,Nested Loops in Java,"In this video, you will find complete examples and explanations of nested loops in Java.  
+
+Subscribe to my channel and hit the bell icon to never miss an update in the future.
+Also don't forget to LIKE & COMMENT.
+
+Channel Subscription:
+🔗 https://www.youtube.com/c/CSCORNERSunitaRai
+
+Java Programming Tutorial Playlist
+🔗 https://www.youtube.com/playlist?list=PLSDyGb_vtany6xtUDAh__zIIQ0WQ6n4ti
+
+ G-Suite Tools Playlist 
+🔗 https://www.youtube.com/playlist?list=PLSDyGb_vtanxinOVTxUVtLCh14-VNgEKE
+
+Screen Recorder Playlist
+🔗 https://www.youtube.com/playlist?list=PLSDyGb_vtanztIEIQ-GUWo47xFMpLPpbi
+
+Quizzes Playlist:
+🔗 https://www.youtube.com/playlist?list=PLSDyGb_vtanxBBiZEJU1K4sagd6lylm8X
+
+ Online Teaching Tools Playlist
+🔗 https://www.youtube.com/playlist?list=PLSDyGb_vtanxRdk1MFrDU7MYWyIO0otBz
+
+Thanks for watching my videos till the end, if you like my work please do Subscribe, Like, Comment, and Share!!
+------------------------------------------------------------------------
+🎥 MY FAVOURITE YouTube GEAR
+https://www.amazon.in/shop/cscornersunitarai?listId=2W3X7FCQRXC00
+
+🌍🌍$$$**Want To Become SUCCESSFUL YouTuber please join FREE Webinar ***$$$🌍🌍
+https://digitalachievershub.com/masterclass/?ref=20
+------------------------------------------------------------------------
+Follow Me On Social Media
+►Facebook - https://www.facebook.com/cscornersunitarai/
+►Personal Facebook A/c - https://www.facebook.com/sunita.sharmarai/
+►Instagram - https://www.instagram.com/cscornersunitarai/
+►Telegram - https://t.me/cscornersunitarai
+►LinkedIn -https://www.linkedin.com/in/cscornersunitarai
+
+#JavaBasicsForBeginners #NestedLoopsInJava #BasicJava #java #JavaTutorial #javaprogrammingtutorial #javatutorialforbeginners #howtorunprograminjava #javatutorial #javaprogramming #javaprogrammingtutorial #javabasicsforbeginners #cscornersunitarai #iterationstatement
+
+
+loops in java
+nested loops
+nested loops in java
+java nested loops
+nested loop
+Nested Loop in Java
+Nesting of For Loops in Java
+nested for loop
+nested while loop
+nesting of loop
+java nested loop
+how the loops are nested
+nested for loop tutorial
+nested for loop
+how to nest the loop
+nesting the for loop
+for loop nested tutorial",14,2020-12-31T16:47:14Z,3043,113,34,27,Nested Loops,-0.07820179099016279
+kCiZYJEVI2Y,Java Programming Tutorial 28 - Nested for Loops (Triangles and Pyramids),"💯 FREE Courses (100+ hours) - https://calcur.tech/all-in-ones
+🐍 Python Course - https://calcur.tech/python-courses
+
+✅ Data Structures & Algorithms - https://calcur.tech/dsa-youtube
+
+~~~~~~~~~~~~~~~ CONNECT ~~~~~~~~~~~~~~~
+
+✉️ Newsletter - https://calcur.tech/newsletter
+📸 Instagram - https://www.instagram.com/CalebCurry
+🐦 Twitter - https://twitter.com/calebCurry
+🔗 LinkedIn - https://www.linkedin.com/in/calebcurry
+▶️ Subscribe - http://calcur.tech/subscribe
+👨🏻‍🎓 Courses - https://www.codebreakthrough.com
+
+~~~~~~~~~~~~~~ SUPPORT ME  ~~~~~~~~~~~~~~
+
+↪ My Amazon Store - https://www.amazon.com/shop/calebcurry
+🅿 Patreon - http://calcur.tech/patreon-calebcurry
+🅖 GitHub Sponsors - https://github.com/sponsors/CalebCurry
+Ⓟ Paypal - http://paypal.me/calcur
+
+🅑 Bitcoin - 3HnF1SWTzo1dCU7RwFLhgk7SYiVfV37Pbq
+🅔 Eth - 0x350139af84b60d075a3a0379716040b63f6D3853
+📈 Buy Bitcoin - https://calcur.tech/crypto
+Reserve the Ruby Steel crypto rewards card and get a $25 bonus (use affiliate code ""Caleb"") - https://calcur.tech/crypto",6,2019-07-27T13:00:13Z,33618,764,52,28,Nested Loops,0.0067338225530874365
+b8NTgwaGgUU,Beginner Java Tutorial #16: Nested Loops in Java with Arrays,In this tutorial we look at Nested loops and how to use them with arrays.,7,2014-05-18T06:15:56Z,18030,191,6,27,Nested Loops,-0.003461080813444714
+AkKBeEgPT-g,Nested Loops in Java | AP SCA,Introduction to nested loops in Java for the AP Computer Science Exam,7,2020-10-01T22:59:17Z,86,2,0,27,Nested Loops,-0.13191078605572684
+_ufVEfDVK0o,Nested loop in Java class 10 computer applications crash course by Prateik Sharma Patterns in java,"Nested loop in Java class 10 computer applications crash course by Prateik Sharma ICSE Patterns in java
+
+Crash Course Class X ICSE 100 MARKS in 28 days Prateik Sharma by Java
+
+ICSE Computer Applications by Prateik Sharma
+
+DM me on Insta for any doubts : https://www.instagram.com/prateik231/
+
+Java for ICSE 10
+
+#icse2021",11,2021-02-24T15:03:53Z,4756,255,19,27,Nested Loops,-0.0889684511993204
+CaaF3oL4M84,Nested for loop in Java (Hindi) | Learn Coding,"Java Full Course for Beginners...!👇👇
+https://www.youtube.com/playlist?list=PLqleLpAMfxGAdqZeY_4uVQOPCnAjhH-eT
+
+Please Like | Share | SUBSCRIBE our Channel..!
+Learn Coding 
+🙏🙏🙏
+
+Like our Facebook Page...!
+Learn Coding
+
+Don't forget to tag our Channel...!
+#NestedForLoop
+#LearnCoding
+#JavaNestedForLoop
+#ask4help",11,2020-11-05T12:21:15Z,26006,884,89,27,Nested Loops,0.0013451193285383795
+w-9ZTeO7q_E,Nested Loops & 2D Arrays | Java | Tutorial 23,"Giraffe Academy is rebranding! I've decided to re-focus the brand of this channel to highlight myself as a developer and teacher! The newly minted Mike Dane channel will have all the same content, with more to come in the future!
+
+Source Code - http://www.mikedane.com/programming-languages/java/
+
+This video is one in a series of videos where we'll be looking at programming in java. The course is designed for new programmers, and will introduce common programming topics using the java language.
+
+Throughout the course we'll be looking at various topics including variables, arrays, getting user input, loops, conditionals, object orientation, and much more.  
+
+If you’re enjoying Giraffe Academy and want to invest in our future, consider leaving a contribution
+http://www.mikedane.com/contribute
+
+Links:
+Website - http://www.mikedane.com/
+Facebook - https://www.facebook.com/giraffeacademy/
+Twitter  - https://twitter.com/GiraffeAcademy",13,2017-10-22T02:46:04Z,74262,2181,96,27,Nested Loops,0.03197823666425691
+wbc7zf47Dhk,Java Tutorial 22 - Nested Loops in Java - Study Viral,"Java Tutorial 22 - Nested Loops in Java - Study Viral
+
+When you ""nest"" two loops, the outer loop takes control of the number of complete repetitions of the inner loop. While all types of loops may be nested, the most commonly nested loops are for loops. Let's look at an example of nested loops at work.
+
+Email :: info@studyviral.in 
+Or
+Email :: studyviral.in@gmail.com
+
+Facebook Page :: 
+https://www.facebook.com/StudyViral.in/
+
+Subscribe Youtube Channel : 
+https://www.youtube.com/channel/UCmlllk0gmFt6nOtyuOhYEpg
+
+Website::
+www.StudyViraL.in",13,2017-11-20T12:30:00Z,16,0,0,27,Nested Loops,0.0
