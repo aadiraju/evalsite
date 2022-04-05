@@ -27,10 +27,16 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+AUTH_USER_MODEL = 'accounts.MyUser'
+
+LOGIN_REDIRECT_URL = 'home'
+LOGOUT_REDIRECT_URL = 'home'
+
 
 # Application definition
 
 INSTALLED_APPS = [
+    'accounts',
     'evaluation',
     'django.contrib.admin',
     'django.contrib.auth',

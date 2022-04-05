@@ -4,6 +4,7 @@ Home
 {% endblock %}
 {% block content %}
 <div class="btn btn-primary">
-    <strong>Hello. </strong> It's {{ date | date:"l, d F, Y" }} at {{ date | time:"H:i:s" }}
+    <strong>Hello {{user.username|default:"Guest" }}. </strong> It's {{ date | date:"l, d F, Y" }} at
+    {{ date | time:"H:i:s" }}
 </div>
 {% endblock %}
