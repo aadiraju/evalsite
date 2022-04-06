@@ -4,7 +4,7 @@
 {% endblock %}
 {% block content %}
 <div class="text-center mb-3">
-    <h1>Rating {{current}}/{{total}}</h1>
+    <h1>Rating {{next}}/{{total}}</h1>
 </div>
 <form method="POST">
     {% csrf_token %}

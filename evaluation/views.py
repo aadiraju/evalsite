@@ -27,4 +27,4 @@ def rate_videos(request, pk):
             video = videos[pk]
         except IndexError:
             done = True
-        return render(request, 'evaluation/rate_videos.html', {'video': video, 'done': done, 'current': pk, 'next': pk + 1, 'prev': pk - 1, 'total': len(videos) - 1})
+        return render(request, 'evaluation/rate_videos.html', {'video': video, 'done': done, 'next': pk + 1, 'prev': pk - 1, 'total': len(videos) - 1})
