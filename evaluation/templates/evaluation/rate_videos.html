@@ -1,0 +1,47 @@
+{% extends "evaluation/base.html" %}
+{% load static %}
+{% block title %}
+{% endblock %}
+{% block content %}
+<div class="text-center mb-3">
+    <h1>Rating {{current}}/{{total}}</h1>
+</div>
+<form method="POST">
+    {% csrf_token %}
+    <div class="d-flex justify-content-center">
+        <div class="card col-md-3">
+            <div class="card-img-top">
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/{{video.video_id}}" title="{{video.title}}"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">{{video.title}}</h5>
+                <p class="card-text">
+                    <div class="rating">
+                        <input id="rating1" type="radio" name="rating" value="1">
+                        <label for="rating1">1</label>
+                        <input id="rating2" type="radio" name="rating" value="2">
+                        <label for="rating2">2</label>
+                        <input id="rating3" type="radio" name="rating" value="3">
+                        <label for="rating3">3</label>
+                        <input id="rating4" type="radio" name="rating" value="4">
+                        <label for="rating4">4</label>
+                        <input id="rating5" type="radio" name="rating" value="5">
+                        <label for="rating5">5</label>
+                    </div>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex">
+        {% if prev >= 0 %}
+        <a role="button" class="btn btn-primary" href="{% url 'rate_videos' prev %}">Previous</a>
+        {% endif %}
+        {% if next != total %}
+        <button class="btn btn-primary ms-auto" type="submit">Next</button>
+        {% endif %}
+    </div>
+</form>
+{% endblock %}
