@@ -1,0 +1,41 @@
+{% extends "evaluation/base.html" %}
+{% block title %}
+{% endblock %}
+{% block content %}
+<h3>Seed Video:</h3>
+<div class="text-center">
+    <div class="card w-50">
+        <div class="card-img-top">
+            <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/{{seed_video_id}}" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<h3 class="m-3">Recommendations for Seed Video:</h3>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Video ID</th>
+            <th scope="col">Ranking</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for video in videos %}
+        <tr>
+            <td>
+                <div class="card">
+                    <div class="card-img-top">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/{{video.0}}" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </td>
+            <td>{{ video.1 }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}
