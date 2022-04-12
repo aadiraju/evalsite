@@ -19,6 +19,4 @@ def register(request):
             user = form.save()
             login(request, user)
             return redirect(reverse("home"))
-        else:
-            form = SignupForm()
     return render(request, 'users/register.html', {'form': form})
