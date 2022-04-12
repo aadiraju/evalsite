@@ -1,3 +1,4 @@
+from sre_parse import CATEGORIES
 from django.utils.timezone import datetime
 from django.http import HttpResponse
 from django.shortcuts import redirect, render
@@ -5,6 +6,11 @@ from django.shortcuts import redirect, render
 from evaluation.models import UserVideoJunction, Video
 from evaluation.utils import Recommendations
 import pandas as pd
+
+ALPHA_VALUES = [0, 0.25, 0.5, 0.75, 1.0]
+CATEGORIES = ['Loops', 'Conditionals', 'Arrays']
+TOTAL_TRIALS = len(ALPHA_VALUES) * len(CATEGORIES)
+TRIAL_TIME = 4  # minutes
 
 
 def home(request):
@@ -17,6 +23,13 @@ def get_video_pk_by_id(video_id):
         if v.video_id == video_id:
             return i
     return -1
+
+
+def get_recommendation_object(user_id):
+    video_df = pd.DataFrame(Video.objects.all().values())
+    ratings_df = pd.DataFrame(UserVideoJunction.objects.all().values())
+    return Recommendations(user_id=user_id,
+                           df=video_df, ratings_df=ratings_df)
 
 
 def get_next_video_to_rate(user_id):
@@ -59,11 +72,19 @@ def rate_videos(request, pk=None):
 
 
 def get_recs(request):
-    video_df = pd.DataFrame(Video.objects.all().values())
-    ratings_df = pd.DataFrame(UserVideoJunction.objects.all().values())
-    recs = Recommendations(user_id=request.user.id,
-                           df=video_df, ratings_df=ratings_df)
+    recs = get_recommendation_object(request.user.id)
     seed_video_id = 'g8GcFboF2rM'
     all_recs = recs.get_recommendations(seed_video_id)
     videos = [(rec['video_id'], rec['ranking']) for rec in all_recs]
     return render(request, 'evaluation/get_recs.html', {'videos': videos, 'seed_video_id': seed_video_id})
+
+
+def evaluate(request, trial_id=None):
+    recs = get_recommendation_object(request.user.id)
+    # for all alpha values in ALPHA_VALUES and all categories in CATEGORIES
+    # ask user to rate top 5 videos given a question for TRIAL_TIME minutes
+    # randomize the order of trials
+    # save to database
+    next_trial = trial_id if trial_id is not None else 0
+    # generate a diuct of all possible combinations of alpha and categories and then select by id passed to url
+    return render(request, 'evaluation/evaluate.html', {'trial_id': next_trial, 'next': next_trial + 1, 'prev': next_trial - 1, 'total': TOTAL_TRIALS})
