@@ -27,7 +27,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link {% if request.resolver_match.url_name == 'rate_videos' %} active {% endif %}"
-                        href="{% url 'rate_videos' 0 %}">Rate Videos</a>
+                        href="{% url 'rate_videos' %}">Rate Videos</a>
                 </li>
                 <li class="nav-item">
                     {% if user.is_authenticated %}

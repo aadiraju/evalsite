@@ -99,25 +99,22 @@ class Recommendations:
         else:
             return round(final_rating)
 
-    def predict_rating(self, video_id, user_id, data_density=1):
+    def predict_rating(self, video_id, user_id):
         ratings_df = self.ratings_df
         test_df = ratings_df.copy()
-        for col in test_df.columns:
-            test_df.loc[test_df.sample(
-                frac=(1 - data_density)).index, col] = 0
         test_df = test_df.fillna(0)
         user_simil = cosine_similarity(test_df, test_df)
         simil = pd.DataFrame(
             user_simil, index=test_df.index, columns=test_df.index)
         return self.predict_rating_helper(video_id, user_id, simil, test_df)
 
-    def get_recommendations(self, seed_video, alpha=0.5, data_density=1):
-        content_recs = self.recommend_content_based(seed_video, 0.3, 0.7)
+    def get_recommendations(self, seed_video, alpha=0.5):
+        content_recs = self.recommend_content_based(seed_video, 0.3, 0.7)  # As determined by content-based benchmarking
         collab_recs = {'video_id': [], 'ratings': []}
         for video_id in content_recs:
             collab_recs['video_id'].append(video_id)
             collab_recs['ratings'].append(self.predict_rating(
-                self.mapping[video_id], self.user_id, data_density))
+                self.mapping[video_id], self.user_id))
 
         content_recs = content_recs.reset_index()
         content_recs['ranking'] = content_recs.index + 1

@@ -11,25 +11,51 @@ def home(request):
     return render(request, 'evaluation/home.html', {'date': datetime.now()})
 
 
-def rate_videos(request, pk):
-    if request.method == 'POST':
-        videos = Video.objects.all()
-        video = videos[pk]
-        rating = request.POST['rating']
-        user = request.user
-        uvj = UserVideoJunction.objects.create(
-            user=user, video=video, rating=rating)
-        uvj.save()
-        return redirect('rate_videos', pk=pk+1)
+def get_video_pk_by_id(video_id):
+    videos = Video.objects.all()
+    for i, v in enumerate(videos):
+        if v.video_id == video_id:
+            return i
+    return -1
+
+
+def get_next_video_to_rate(user_id):
+    num_videos = len(Video.objects.all())
+    latest_video = UserVideoJunction.objects.filter(
+        user_id=user_id).order_by('-pk').first()
+    if latest_video is None:
+        return 0
     else:
-        done = False
-        video = None
-        try:
+        next_video_id = get_video_pk_by_id(latest_video.video.pk) + 1
+        return next_video_id if next_video_id < num_videos else -1
+
+
+def rate_videos(request, pk=None):
+    if request.method == 'POST':
+        if pk is not None:
             videos = Video.objects.all()
             video = videos[pk]
+            rating = request.POST['rating']
+            user = request.user
+            uvj, created = UserVideoJunction.objects.update_or_create(
+                user=user, video=video, defaults={'rating': rating})
+            uvj.save()
+            return redirect('rate_videos', pk=pk+1)
+        else:
+            return redirect('home')
+    else:
+        if pk is None:
+            next_id = get_next_video_to_rate(request.user.id)
+            return redirect('rate_videos', pk=next_id)
+        done = False
+        video = None
+        current_id = pk
+        try:
+            videos = Video.objects.all()
+            video = videos[current_id]
         except IndexError:
             done = True
-        return render(request, 'evaluation/rate_videos.html', {'video': video, 'done': done, 'next': pk + 1, 'prev': pk - 1, 'total': len(videos) - 1})
+        return render(request, 'evaluation/rate_videos.html', {'video': video, 'done': done, 'next': current_id + 1, 'prev': current_id - 1, 'total': len(videos) - 1})
 
 
 def get_recs(request):

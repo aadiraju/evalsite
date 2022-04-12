@@ -3,6 +3,11 @@
 {% block title %}
 {% endblock %}
 {% block content %}
+{% if done %}
+<div class="alert alert-success test-center">
+    <strong>Success!</strong> Your ratings have been submitted.
+</div>
+{% else %}
 <div class="text-center mb-3">
     <h1>Rating {{next}}/{{total}}</h1>
 </div>
@@ -44,4 +49,5 @@
         {% endif %}
     </div>
 </form>
+{% endif %}
 {% endblock %}
