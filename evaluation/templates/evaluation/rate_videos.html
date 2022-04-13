@@ -44,7 +44,7 @@
         {% if prev >= 0 %}
         <a role="button" class="btn btn-primary" href="{% url 'rate_videos' prev %}">Previous</a>
         {% endif %}
-        {% if next != total %}
+        {% if next <= total %}
         <button class="btn btn-primary ms-auto" type="submit">Next</button>
         {% endif %}
     </div>

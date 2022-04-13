@@ -60,7 +60,7 @@ class Recommendations:
         # Need to use key function because it is a list of tuples in the format (df_index, similarity_score)
         simscore = sorted(simscore, key=lambda x: x[1], reverse=True)[1:]
 
-        simscore = simscore[:5]
+        simscore = simscore[:5]  # get top 5 videos
 
         # Get dataframe indices in order
         video_idxs = [i[0] for i in simscore]

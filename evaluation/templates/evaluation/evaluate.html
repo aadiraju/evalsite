@@ -2,20 +2,74 @@
 {% block title %}
 {% endblock %}
 {% block content %}
+{% if done %}
+<div class="alert alert-success text-center">
+    <strong>Success!</strong> You have completed the experiment! Thank you for your time!
+</div>
+{% else %}
 <div class="text-center mb-3">
-    <button id="test" class="btn btn-outline-primary">
-        Trial <span id="trial_no">{{ next }}</span>/{{ total }}
-    </button>
+    <h1> Trial <span id="trial_no">{{ next }}</span>/{{ total }}</h1>
 </div>
-<div class="d-flex">
-    {% if prev >= 0 %}
-    <a role="button" class="btn btn-primary" href="{% url 'evaluate' prev %}">Previous</a>
-    {% endif %}
-    {% if next != total %}
-    <!-- <button class="btn btn-primary ms-auto" type="submit">Next</button> -->
-    <a role="button" class="btn btn-primary ms-auto" href="{% url 'evaluate' next %}">Next</a>
-    {% endif %}
+<div class="alert alert-primary text-center mb-5">
+    <strong>For this trial,</strong> Assume you were given the following programming question and submitted an empty
+    answer.
+    Rate the videos to the right on a scale of 1 to 5 (1 being the worst and 5 being the best) in terms of how much they
+    would help you solve this question. Click the <strong>'Next'</strong> button once you are done to move to the next
+    trial.
 </div>
+<form method="POST">
+    {% csrf_token %}
+    <div class="d-flex">
+        <div class="col-md-9">
+            <div class="d-flex flex-column justify-content-center">
+                <div class="h5">
+                    {{ question.question_text }}
+                </div>
+                <div class="form-group">
+                    <label for="answer">Answer</label>
+                    <textarea class="form-control" id="answer" name="answer" rows="55"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="ms-auto d-flex flex-column justify-content-center">
+            {% for video in videos %}
+            <input type="hidden" name="video" value="{{ video.0 }}" />
+            <div class="card">
+                <div class="card-img-top">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/{{video.0}}" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                        <div class="rating">
+                            <input id="rating1-{{video.0}}" type="radio" name="rating-{{video.0}}" value="1">
+                            <label for="rating1-{{video.0}}">1</label>
+                            <input id="rating2-{{video.0}}" type="radio" name="rating-{{video.0}}" value="2">
+                            <label for="rating2-{{video.0}}">2</label>
+                            <input id="rating3-{{video.0}}" type="radio" name="rating-{{video.0}}" value="3">
+                            <label for="rating3-{{video.0}}">3</label>
+                            <input id="rating4-{{video.0}}" type="radio" name="rating-{{video.0}}" value="4">
+                            <label for="rating4-{{video.0}}">4</label>
+                            <input id="rating5-{{video.0}}" type="radio" name="rating-{{video.0}}" value="5">
+                            <label for="rating5-{{video.0}}">5</label>
+                        </div>
+                    </p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="d-flex mt-3">
+        {% if prev >= 0 %}
+        <a role="button" class="btn btn-primary" href="{% url 'evaluate' prev %}">Previous</a>
+        {% endif %}
+        {% if next <= total %}
+        <button class="btn btn-primary ms-auto" type="submit">Next</button>
+        {% endif %}
+    </div>
+</form>
+{% endif %}
 {% endblock %}
 {% block javascript %}
 <script>

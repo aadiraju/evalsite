@@ -1,0 +1,521 @@
+video_id,title,description,duration,publish_date,view_count,like_count,comment_count,youtube_category,categories,VLS
+apQjgJK3t1w,Selection Statements In Java | If | If Else | If Else If | Nested If |Switch Case Statements In JAVA,"follow me on: 
+Facebook: https://www.facebook.com/pawans.nair.7 
+Instagram: https://www.instagram.com/pawan_s_nair/ 
+Twitter: https://twitter.com/PawanNair  
+Linked in: https://www.linkedin.com/in/pawan-nair-669860168/
+
+Selection Statements are basically of Five types:
+
+1)if statement
+2)if-else statement
+3)if else if statement
+4)nested if statement
+5)switch case statement
+
+if statement
+--------------------------
+An if the statement we have only if block if the condition is true then the block of code is executed or else it will skip the code.
+
+if-else statement
+-----------------------------
+An if-else statement we have two blocks if and else, depending on the condition if it is true then the if block is executed or else it will skip the if block and execute the else block.
+
+if else if statement
+--------------------------------
+An if else if statement we have three different types of blocks if, else if and else, depending on the condition if it is true then the if block is executed or else it will skip the if block and execute the next block of else if in the line,
+if all the else if condition and also turned out to be false then else block will be executed
+
+nested if
+----------------------
+When we have if block and within that, we have another if block then it's called as nested if
+
+switch case
+-----------------------
+switch case statement basically check the choice that is given and matches it with the cases present within it, if choice match get the match 
+then that case is executed if none of the case matches then finally default is executed 
+
+Query Solved :
+1)Types of selection statements
+2)What is if statements
+3)Flow chart of if statements
+4)Implementation of if statements
+5)What is if else statements
+6)Flow chart of if else statements
+7)Implementation of if else statements
+8)What is if else if statements
+9)Flow chart of if else if statements
+10)Implementation of if else if statements
+11)What is nested if statements
+12)Flow chart of nested if statements
+13)Implementation of nested if statements
+14)What is switch statements
+15)Flow chart of switch statements
+16)Implementation of switch statements",17,2020-05-24T12:29:35Z,3109,105,9,27,"Statements, Nested Conditional Statements",-0.070398116
+YPK6NYMJt_A,Java Conditionals: If-else Statement in Java,"Java If-else Conditionals: Watch CodeWithHarry ""Java Tutorial for Beginners"" series and become a Java Professional. In this java course, i will be explaining Java from the very basic step and all other JAVA concepts in a very easy to understand manner.
+►This playlist is a part of my Complete Java Course playlist: https://www.youtube.com/playlist?list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q
+►Source Code + Notes - https://codewithharry.com/videos/java-tutorials-for-beginners-16
+►Ultimate Java CheatSheet: https://codewithharry.com/videos/java-tutorials-for-beginners-1
+►Checkout my English channel here: https://www.youtube.com/ProgrammingWithHarry
+►Click here to subscribe - https://www.youtube.com/channel/UCeVMnSShP_Iviwkknt83cww
+
+Best Hindi Videos For Learning Programming:
+►Learn Python In One Video - https://www.youtube.com/watch?v=ihk_Xglr164
+
+►Python Complete Course In Hindi - https://www.youtube.com/playlist?list=PLu0W_9lII9agICnT8t4iYVSZ3eykIAOME
+
+►C Language Complete Course In Hindi -  
+https://www.youtube.com/playlist?list=PLu0W_9lII9aiXlHcLx-mDH1Qul38wD3aR&disable_polymer=true
+
+►JavaScript Complete Course In Hindi - 
+ https://www.youtube.com/playlist?list=PLu0W_9lII9ajyk081To1Cbt2eI5913SsL
+
+►Learn JavaScript in One Video - https://www.youtube.com/watch?v=onbBV0uFVpo
+
+►Learn PHP In One Video - https://www.youtube.com/watch?v=xW7ro3lwaCI
+
+►Django Complete Course In Hindi -  
+https://www.youtube.com/playlist?list=PLu0W_9lII9ah7DDtYtflgwMwpT3xmjXY9
+
+►Machine Learning Using Python - https://www.youtube.com/playlist?list=PLu0W_9lII9ai6fAMHp-acBmJONT7Y4BSG
+
+►Creating & Hosting A Website (Tech Blog) Using Python - https://www.youtube.com/playlist?list=PLu0W_9lII9agAiWp6Y41ueUKx1VcTRxmf
+
+►Advanced Python Tutorials - https://www.youtube.com/playlist?list=PLu0W_9lII9aiJWQ7VhY712fuimEpQZYp4
+
+►Object Oriented Programming In Python - https://www.youtube.com/playlist?list=PLu0W_9lII9ahfRrhFcoB-4lpp9YaBmdCP
+
+►Python Data Science and Big Data Tutorials - https://www.youtube.com/playlist?list=PLu0W_9lII9agK8pojo23OHiNz3Jm6VQCH
+
+Follow Me On Social Media
+►Website (created using Flask) - http://www.codewithharry.com
+►Facebook - https://www.facebook.com/CodeWithHarry
+►Instagram - https://www.instagram.com/codewithharry/
+►Personal Facebook A/c - https://www.facebook.com/geekyharis
+Twitter - https://twitter.com/Haris_Is_Here",13,2020-09-16T08:14:33Z,247907,15508,564,27,"Statements, Conditional Statements, Simple Programs With Decision Points, Programs With Decision Points",0.143521446
+yvWnj_HfG6s,Java Else If Statements Tutorial,"Full Java Course: https://course.alexlorenlee.com/cours...
+If you're new to programming, I HIGHLY RECOMMEND solving challenges on Edabit: https://edabit.com/?ref=alexlee
+Take the Computer Science Fundamentals Course on Brilliant for free (plus 20% off subscription): https://brilliant.sjv.io/alexlee
+Get my favorite programming audiobook for free! https://audibletrial.com/alexleefree
+20% off Brain.fm (productivity hack): https://www.brain.fm/alexlee20
+Get Tabnine autocomplete for free: https://bit.ly/3ilJLMQ
+Get SERVICE HOURS as an online tutor or get FREE ONLINE TUTORING for K-8 students: https://connectmego.org/
+
+Disclosure: Brilliant, Audible, Brain.fm, Edabit and Tabnine links provided are linked to my affiliate accounts & support the channel.
+
+For beginners, here is exactly how to use java if and else if statements! ✅
+
+👑Start practicing now with 10 free java programs - http://alexlorenlee.com/
+🌅 Source Code - https://github.com/alexlorenlee/JavaTutorialCode/blob/master/Conditionals/IfElse.java
+
+An if statement lets you decided which code to run under a certain condition. If a grade is between 90 and 100 then the letter grade is an A. Else if is just tacked on to specify another condition, like 80 to 90 is B, and so on. An else statement specifies code that's run for anything else! This was a pretty deep example for beginners but I hope it was helpful or gave you a template to start exploring if else statements in java on your own.
+
+This is a template for how to do multiple java else if statements in java:
+if() { 
+
+ } else if () {
+
+}  else if () {
+
+} else {
+
+}
+
+This way of specifying how to run code with if statements can be a little tricky at first, but you'll surely get the hang of it! They aren't too bad :) If you followed along, congrats! You learned-by-doing!
+
+I hope you enjoyed this tutorial on java else if statements tutorial! I like to have a nice mix of tutorials and actual projects for you all :)
+
+Do you want to learn how to code from scratch, in Java? Check out my Java Tutorial For Beginners: https://youtu.be/woJb2hAfkO0
+
+How are you using java if else statements? -
+
+Free tips and programs: http://alexlorenlee.com
+Programmer Humor: https://www.xonot.com - Promo code: ""ALEX10"" for 10% off
+
+Recommended Channels to Subscribe to
+Career Karma: https://youtube.com/channel/UCkCwv67-...
+TheNewBoston: https://youtube.com/user/thenewboston
+
+~
+https://discord.com/invite/Yk3uqST
+https://instagram.com/alexlorenlee
+https://youtube.com/channel/UCLkeDGcXfiKlN2imazwkg4A (2nd channel)
+
+Alex Lee",8,2018-12-20T20:00:09Z,173093,5747,325,27,"Statements, Conditional Statements, Simple Programs With Decision Points, Programs With Decision Points",0.064247923
+P6ivQ3QRq0I,Java Programming #5 - Conditional Statements,"Become a Member on TheCodex for FREE and jumpstart your career - https://thecodex.me
+Java Programming for Beginners! A series of Java Tutorials covering all the basics of Java programming. This video will cover Conditional Statements in Java, learning about relational operators and if/else if/else statements. 
+
+► SIGN UP ON THECODEX TODAY! https://www.thecodex.me/
+► THECODEX BLOG: https://blog.thecodex.me/
+► TWITTER: https://twitter.com/thecodexme
+► FACEBOOK: https://www.facebook.com/TheCodexMe/
+
+♦♦♦♦♦♦♦♦♦♦
+
+THECODEX is a company focused on empowering and enabling anyone to learn how to code. Established in 2015 by Avinash Jain, THECODEX has taught over 600,000 students around the world how to code. With over 16 programming courses on a wide variety of topics, and more than 20,000 5-Star reviews, THECODEX is the right choice for you. 
+
+We provide engaging and comprehensive videos that break down complex information and cover everything you need to know about the subject. All students get access to our Q/A forums where you can get your doubts and problems cleared up. At the end of every course, you will receive a certificate of completion. 
+
+Jumpstart your Coding Journey with THECODEX today!
+
+♦♦♦♦♦♦♦♦♦♦
+
+Music: Flash Funk (Marshmello)",10,2019-03-07T04:12:15Z,11058,207,4,27,Conditional Statements,-0.015267638
+uDeRerXf-v0,Java Tutorial 2- Operators and Conditional Statements,"Topics 
+1) Java Operators
+2) Conditional Statements in java
+Java Programs for Selenium:  https://goo.gl/h1Vutw
+Java Materials & FAQ's: https://goo.gl/GSi37e
+
+Visit our blogs for more Tutorials & Online training
+==========================================
+https://www.pavanonlinetrainings.com
+https://www.pavantestingtools.com
+https://pavanautomationtools.blogspot.in/
+https://pavanhadooptesting.blogspot.in/
+
+Subscribe our YouTube Channel for getting updated videos
+==========================================
+https://www.youtube.com/pavanoltraining
+
+Like us in Face book
+==========================================
+https://www.facebook.com/pavanoltraining/
+https://www.facebook.com/seleniumtestingpoint
+ https://www.facebook.com/groups/pavantestingtools
+
+Hadoop Testing Videos:
+==========================================
+https://www.youtube.com/watch?v=Z6wSgvMqUaI&list=PLUDwpEzHYYLvFc8ic8eAsN7aFki9YlvRL
+
+Java Videos
+==========================================
+https://www.youtube.com/watch?v=sx9NNHvEV74&list=PLUDwpEzHYYLv9v8aRuNi67vZ81cW2ksze
+
+Selenium Webdriver videos
+==========================================
+https://www.youtube.com/watch?v=2yNo9Q2Tn70&list=PLUDwpEzHYYLs6G9WOfFxiH5zMfgNxgmSV
+
+ETL Testing videos
+==========================================
+https://www.youtube.com/watch?v=Vpx9-1Xqmpo&list=PLUDwpEzHYYLtW8gTLTr5IB9e724Wlc312
+
+Database Testing Videos
+==========================================
+https://www.youtube.com/watch?v=QMfIZRcOJMg&list=PLUDwpEzHYYLsX7ozjG6Zz_mSWkMXogkw5
+
+Automation Frameworks
+==========================================
+https://www.youtube.com/watch?v=X3GrsAdFeJA&list=PLUDwpEzHYYLvswSgPh4c59kDvBz6U91_b
+
+Agile Testing Videos
+==========================================
+https://www.youtube.com/watch?v=S3NrmaPA1o4&list=PLUDwpEzHYYLu-ygW1oqjLSyFy1EdXghOc
+
+SQL Videos
+==========================================
+https://www.youtube.com/watch?v=RtQzePx0LPc&list=PLUDwpEzHYYLtzLBvuO9hN7ee5Mcy2ydSB
+
+DevOps videos
+==========================================
+https://www.youtube.com/watch?v=zc5DE6_HY9Y&list=PLUDwpEzHYYLvY0TkyvgYX4BKDtF7RhMpj",65,2017-11-25T07:42:51Z,41012,365,30,27,Conditional Statements,0.004406387
+u0hVa50aCjI,Java Conditional Statements in 25 minutes,"► Do you have any Query? Kindly message us on WhatsApp https://wa.me/message/VLQEBSCSNL73P1 . We won't pick calls, just WhatsApp Messages. 
+
+ ► Join Our Telegram Channel For Latest Updates For Our Courses: https://t.me/programmingline 
+► Download Our Programming Line Mobile App To Get Complete Courses For Low Fee: https://bit.ly/3xuPnK1
+
+******************** Java Conditional Statements:
+It uses to test the condition. 
+If the condition is true then some action will be performed.
+
+There are 4 categories of conditional ""if"" statements:
+if statement
+if-else statement
+if-else-if ladder statement
+nested if statement
+
+if statement:
+Simplest conditional statement
+
+if-else statement:
+if-else is a conditional statement.
+Use case: If your age is above or equal to 18 then you are eligible to vote.
+
+if-else-if ladder statement:
+It executes one condition from the set of statements. 
+
+nested if:
+if block within another if block.
+
+For more details check out: https://programmingline.com/2018/10/java-if-else-syntax-and-basic-program.html
+
+
+#ConditionalStatements #Java #programmingline #rakesh #rake
+
+*******************************************************
+
+IMPORTANT PLAYLISTS:
+Java Course: https://www.youtube.com/playlist?list=PLN00Qh4gtjNvty8ynSn9_3iOTDSe3gzoa
+Software Design Patterns Course: https://www.youtube.com/playlist?list=PLN00Qh4gtjNuMQ5cvSFKPNrkNF9sTjM2-
+OOPs Course: https://www.youtube.com/playlist?list=PLN00Qh4gtjNuAQhSz1WmrQIpINu3JuKuX
+NLP Course: https://www.youtube.com/playlist?list=PLN00Qh4gtjNunIRl0Gj8OWqwun5X5j2eh
+Software Interview Tips: https://www.youtube.com/playlist?list=PLN00Qh4gtjNuMQ5cvSFKPNrkNF9sTjM2-
+
+Important Links:
+Skillshare - Best Online Learning Platform (2 Free Months of Premium Membership): https://programmingline.com/skillshare 
+Java Course: https://programmingline.com/java-course
+Software Design Patterns Course: https://programmingline.com/software-design-patterns-course
+Object Oriented Programming (OOPs) Course: https://programmingline.com/oops
+Best Books for Software Courses: https://programmingline.com/best-books-for-software-courses
+Campus Interview: https://programmingline.com/campus-interview
+How to crack the programming aptitude round?: https://programmingline.com/how-to-crack-the-programming-aptitude-round
+
+*******************************************************
+
+Subscribe my YouTube channels:
+► Subscribe https://www.youtube.com/programmingline/example?sub_confirmation=1 channel for watching Software Related courses like Java, Software Design Patterns, OOPs, and etc in Tamil, Telugu, and English.
+
+► Subscribe https://www.youtube.com/channel/UChEO9wBuI1_FtBsVmFL8qBA/example?sub_confirmation=1 channel for watching Income Tax saving schemes and Stock Market related videos.
+
+► Subscribe https://www.youtube.com/channel/UCBCCLK1wGt1FkGbEkv9Rb6w/example?sub_confirmation=1 channel for watching Terrace Gardening Tips, Unboxing products, and Random videos in Tamil, Telugu, and English.
+
+Website: https://www.programmingline.com
+FaceBook page: https://www.facebook.com/programminglineofficial
+Instagram: https://www.instagram.com/programmingline
+Twitter: https://twitter.com/programmingline
+
+*******************************************************",23,2018-12-05T14:52:06Z,255,1,0,27,Conditional Statements,-0.017981363
+ln_vMXXXeDI,Java Conditional Operator Tutorial - How to use the Conditional Operator in Java,"Full Java Course: https://course.alexlorenlee.com/courses/learn-java-fast
+If you're new to programming, I HIGHLY RECOMMEND solving challenges on Edabit: https://edabit.com/?ref=alexlee
+
+I recommend installing Tabnine autocomplete on your IDE (free and saves you time):
+https://www.tabnine.com/get?lang=java&utm_source=youtube.com&utm_medium=Ins&utm_campaign=AlexLee 
+
+Disclosure: Edabit and Tabnine links provided are linked to my affiliate accounts & support the channel.
+
+The conditional operator lets you make an if-else statement on one line! 
+
+There are 3 parts to the conditional operator in Java. The first part results in true or false, the middle is the value if it's true and the last is the value if it's false!
+
+I hope you enjoyed this Java conditional operator tutorial!
+
+Free tips and programs: http://alexlorenlee.com
+
+Recommended Channels to Subscribe to
+Career Karma: https://youtube.com/channel/UCkCwv67-HTCzIhxLG8aHOQQ
+TheNewBoston: https://youtube.com/user/thenewboston
+
+~
+https://discord.com/invite/Yk3uqST
+https://instagram.com/alexlorenlee
+https://youtube.com/channel/UCLkeDGcXfiKlN2imazwkg4A (2nd channel)
+
+Alex Lee",4,2020-07-30T19:00:10Z,27061,1093,96,27,Conditional Statements,0.00320447
+DOlg2dBrErc,if Statement in Java,"Java Programming: if Statement in Java Programming
+Topics Discussed:
+1. if statement in Java.
+2. Examples on if statement in Java.
+
+Follow Neso Academy on Instagram: @nesoacademy (https://bit.ly/2XP63OE)
+
+Contribute: http://www.nesoacademy.org/donate
+
+Memberships: https://bit.ly/2U7YSPI
+
+Books: http://www.nesoacademy.org/recommended-books
+
+Website ► http://www.nesoacademy.org/
+Forum ► https://forum.nesoacademy.org/
+Facebook ► https://goo.gl/Nt0PmB
+Twitter      ► https://twitter.com/nesoacademy
+
+Music:
+Axol x Alex Skrindo - You [NCS Release]
+
+#JavaByNeso #JavaProgramming #ifStatement",7,2020-03-08T12:30:00Z,27739,462,26,27,Conditional Statements,0.001733538
+#NAME?,PFB #23 - Conditional Statements in Java,"In this video, we'll learn about Conditional statements in Java.
+
+Watch this course on my website for more written explanation, and extras : https://coursesbytechraj.com/courses/1
+
+Follow on Instagram : https://instagram.com/teja.techraj
+Like on Facebook : https://fb.com/techraj156
+Twitter : https://twitter.com/techraj156",23,2019-11-16T08:15:42Z,857,24,6,28,Conditional Statements,-0.094461793
+hs45eeZ326U,Loops in Java | Conditional Statements in Java | Java Tutorial For Beginners | Simplilearn|,"This video is based on iteration and control statements. This video will cover the For loop, While loop and Do While Loops. The video also covers the conditional statements in java. This Java Tutorial for beginners will include a practical session to offer a better learning experience. The video will cover the following topics.
+
+00:00 Introduction
+00:35 While Loop
+08:55 Do While Loop
+16:00 For Loop 
+24:10 Enhanced For Loop
+29:30 Nested For Loop
+
+🔥Enroll for Free Java Course & Get Your Completion Certificate: https://www.simplilearn.com/learn-java-basics-skillup?utm_campaign=JavaLoopsTutorial&utm_medium=Description&utm_source=youtube
+
+✅Subscribe to our Channel to learn more about the top Technologies: https://bit.ly/2VT4WtH
+
+⏩ Check out the Java training videos: https://www.youtube.com/watch?v=i6AZdFxTK9I&list=PLEiEAq2VkUUI5_Z4vOtWE6AMcSrYbth1t
+
+#LoopsInJava #JavaLoopsTutorial #ForLoopInJava #DoWhileLoopInJava #WhileLoopInJava #JavaLoops #JavaLoopsTutorial  #JavaLoopsExplained #JavaProgramming #JavaForBeginners #JavaTutorialForBeginnners #Java #Simplilearn 
+
+What is Java?
+Java is an object-oriented, class-based, high-level programming language used for software development, mobile application development, website development, desktop application development, and much more. Java is one of the leading and in-demand programming languages in the current IT industry.
+
+What is a loop?
+A loop is a conditional statement that executes itself a definite number of times until a specific user-defined condition is not satisfied. There are different types of loops available in Java as mentioned below:
+For Loop in Java
+While Loop in Java
+Do While Loop in Java
+Enhanced For Loop in Java
+
+Post Graduate Program in Full Stack Web Development:
+A Global Online Coding Bootcamp With Caltech CTME
+Accelerate your career as a software developer through this Post Graduate Program in Full Stack Web Development course in collaboration with Caltech CTME. In just a few months, you'll learn modern coding techniques with bootcamp-level intensity and gain all you need to be a full-stack technologist. This Post Graduate Program will help you master both front-end and back-end Java technologies, starting with the basics and progressing to the advanced aspects of Full Stack Web Development. In this web development certification course, you will learn Angular, Spring Boot, Hibernate, JSPs, and MVC to help you launch your career as a full stack developer.
+
+Key Features:
+✅ Caltech CTME Post Graduate Certification
+✅ Masterclasses from Caltech CTME faculty
+✅ Online Convocation by Caltech CTME Program Director
+✅ Get noticed by the top hiring companies
+✅ Receive 25 CEUs from Caltech CTME
+✅ Access to Caltech CTME Circle Membership
+✅ Physical Certificate from Caltech CTME (on request)
+✅ 250+ Hours of Applied Learning
+✅ 30+ in-demand tools and skills
+✅ Capstone Project in 4 domains
+✅ 20 lesson-end and five phase-end projects
+✅ Build your own portfolio on GitHub
+
+👉Learn more at: https://www.simplilearn.com/pgp-full-stack-web-development-certification-training-course?utm_campaign=JavaLoopsTutorial&utm_medium=Description&utm_source=youtube
+
+For more updates on courses and tips follow us on:
+- Facebook: https://www.facebook.com/Simplilearn 
+- Twitter: https://twitter.com/simplilearn 
+- LinkedIn: https://www.linkedin.com/company/simplilearn/
+- Website: https://www.simplilearn.com 
+- Instagram: https://www.instagram.com/simplilearn_elearning
+- Telegram Mobile: https://t.me/simplilearnupdates
+- Telegram Desktop: https://web.telegram.org/#/im?p=@simplilearnupdates
+
+Get the Android app: http://bit.ly/1WlVo4u 
+Get the iOS app: http://apple.co/1HIO5J0",39,2021-03-17T06:30:02Z,2132,61,6,27,Conditional Statements,-0.070433121
+oHs0r00DeD8,Conditional statements in java - Chapter 7,"ICSE , Class IX",17,2020-08-10T00:03:38Z,3509,88,11,22,Conditional Statements,-0.049239491
+6sYZDA8JPhk,Nested if-else Statements in Java,"Java Programming: Nested if-else Statements in Java Programming
+Topics Discussed:
+1. Nested if-else statements in Java.
+2. if-else ladder in Java.
+
+Follow Neso Academy on Instagram: @nesoacademy (https://bit.ly/2XP63OE)
+
+Contribute: http://www.nesoacademy.org/donate
+
+Memberships: https://bit.ly/2U7YSPI
+
+Books: http://www.nesoacademy.org/recommended-books
+
+Website ► http://www.nesoacademy.org/
+Forum ► https://forum.nesoacademy.org/
+Facebook ► https://goo.gl/Nt0PmB
+Twitter      ► https://twitter.com/nesoacademy
+
+Music:
+Axol x Alex Skrindo - You [NCS Release]
+
+#JavaByNeso #JavaProgramming #NestedifelseStatements",5,2020-03-11T13:02:12Z,25288,417,14,27,Nested Conditional Statements,0.000190858
+Y4xFGCyt1ww,Java Programming Tutorial - 18 - Nested if Statements,"Join our community below for all the latest videos and tutorials!
+
+Website - https://thenewboston.com/
+Discord - https://discord.gg/thenewboston
+GitHub - https://github.com/thenewboston-developers
+Reddit - https://www.reddit.com/r/thenewboston/
+LinkedIn - https://www.linkedin.com/company/thenewbostoncoin/
+Facebook - https://www.facebook.com/thenewbostoncoin/
+Twitter - https://twitter.com/thenewboston_og
+Instagram - https://www.instagram.com/thenewbostoncoin/
+Twitch - https://www.twitch.tv/thenewboston/videos
+
+TNBC Donations: b6e21072b6ba2eae6f78bc3ade17f6a561fa4582d5494a5120617f2027d38797",5,2009-05-10T15:21:44Z,735722,5985,380,26,Nested Conditional Statements,0.027512902
+x0eYqzUVPY8,Java Programming Tutorial - 05 - Nested IF Statements,"Get more lessons like this at http://www.MathTutorDVD.com
+
+Learn how to created nested if statements in Java to make more complex decision branching for more complicated programs.",9,2018-03-25T19:06:32Z,13762,146,6,27,Nested Conditional Statements,-0.006331879
+xgJbuxvgdXY,Java - Nested If Statement,"Java - Nested If Statement
+watch more videos at https://www.tutorialspoint.com/videotutorials/index.htm
+Lecture By: Ms. Monica, Tutorials Point India Private Limited",7,2018-01-18T07:15:51Z,30861,318,11,27,Nested Conditional Statements,0.002171495
+n0frZ1gcDXc,Nested if-else Statements in Java || Conditional Statements - Nested IF Condition,"Hello everyone...
+In this session we're going to understand the concept of 'Nested If' Statement. In the last session we
+saw, the simple 'If else' and 'Nested If' is just an extension of that where we've an if statement inside
+another If statement, and we're going to understand this concept by a simple example.
+
+=====================
+Watch Now :
+=====================
+
+
+Java  string Tutorials part 1 :https://youtu.be/zrZ23QatuiY
+java string Tutorials part2    :https://youtu.be/xgSjw-olksU
+String slice operation            :https://youtu.be/pylxg9zrug4
+String Search operation        :https://youtu.be/_Beijn3mccA
+String replace operation       : https://youtu.be/I_lBYds5Khw
+
+
+======================
+
+
+Subscribe For More Advantage : https://www.youtube.com/channel/UC1PLJ99vSBO0Lrxd7rtgMog?sub_confirmation=1
+
+
+Follow on Twitter :https://twitter.com/EverythingsPro/
+Follow on Instagram :https://www.instagram.com/everythingsactivity/
+
+
+
+=========================
+
+#JavaProgramming #NestedifelseStatements #NestedIFCondition #everythingsProgrammingActivity #onlineclasses #onlinejavaclasses #freejavaclasses #onlinefreejava",6,2021-06-11T05:13:08Z,46,4,1,28,Nested Conditional Statements,-0.547640843
+bTmBw_yIFCA,#26 nested if else condition 😇😂🤣|conditional statement in Java😍|Java full tutorial👨‍🏫|hackernaveen,"in this video we will learn about nested if statement🥰🥰🥰🥰
+
+previous video link
+if else if condition😇😀
+https://youtu.be/8shpeSxdwQ8
+
+
+next video switch case😁😁😁
+
+https://youtu.be/d2LCAZJxqeU",22,2021-07-31T15:27:24Z,49,6,7,27,Nested Conditional Statements,-0.763431526
+k8g0KRt86jA,Nested if Statement in Java with Example|Nested if in Java,"In this video, you will find complete examples and explanations of nested if statements in Java.
+
+Topic covered:
+-What is the Nested if statement?
+-Syntax of Nested if statement
+-Flowchart of Nested if statement
+-Example using IDE
+
+Subscribe to my channel and hit the bell icon to never miss an update in the future.
+Also don't forget to LIKE & COMMENT.
+
+Channel Subscription:
+🔗 https://www.youtube.com/c/CSCORNERSunitaRai
+
+Java Programming Tutorial Playlist
+🔗 https://www.youtube.com/playlist?list=PLSDyGb_vtany6xtUDAh__zIIQ0WQ6n4ti
+
+ G-Suite Tools Playlist 
+🔗 https://www.youtube.com/playlist?list=PLSDyGb_vtanxinOVTxUVtLCh14-VNgEKE
+
+Screen Recorder Playlist
+🔗 https://www.youtube.com/playlist?list=PLSDyGb_vtanztIEIQ-GUWo47xFMpLPpbi
+
+Quizzes Playlist:
+🔗 https://www.youtube.com/playlist?list=PLSDyGb_vtanxBBiZEJU1K4sagd6lylm8X
+
+ Online Teaching Tools Playlist
+🔗 https://www.youtube.com/playlist?list=PLSDyGb_vtanxRdk1MFrDU7MYWyIO0otBz
+
+Thanks for watching my videos till the end, if you like my work please do Subscribe, Like, Comment, and Share!!
+
+#JavaBasicsForBeginners #NestedIfStatementInJava #BasicJava #java #JavaTutorial #javaprogrammingtutorial #javatutorialforbeginners #howtorunprograminjava #javatutorial #javaprogramming #javaprogrammingtutorial #javabasicsforbeginners #cscornersunitarai #conditionalstatement",6,2020-12-01T11:24:12Z,963,130,27,27,Nested Conditional Statements,-0.43960488
+GrkX5JcT0Yw,Learn Java Programming - Exercise 05x - Nested If Statements,"Get more lessons like this at http://www.MathTutorDVD.com
+
+Learn how to nest if statements in java to make complex decisions.",5,2018-03-25T19:07:06Z,2385,42,1,27,Nested Conditional Statements,-0.041375841
+ndGJvbT5KL4,"Java Tutorial 7: Nested IF, Else Statement in Java","In this tutorial, i will teach you nested if , else statement in Java
+
+Please Rate, comment and Subscribe.",6,2010-12-22T20:08:07Z,5370,29,3,27,Nested Conditional Statements,-0.008305383

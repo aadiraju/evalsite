@@ -1,3 +1,4 @@
+from pyexpat import model
 from django.conf import settings
 from django.db import models
 
@@ -31,3 +32,21 @@ class UserVideoJunction(models.Model):
 
     class Meta:
         unique_together = ('user', 'video')
+
+
+class Question(models.Model):
+    question_text = models.TextField(null=True, blank=False)
+    category = models.CharField(
+        max_length=500, null=True, blank=False)
+
+
+class TrialData(models.Model):
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE,
+                             related_name='trial_data', db_index=True)
+    trial_number = models.IntegerField(null=True, blank=False)
+    alpha_value = models.FloatField(null=True, blank=False)
+    time_taken = models.IntegerField(null=True)
+    video_rankings = models.JSONField(null=True)
+
+    class Meta:
+        unique_together = ('user', 'trial_number')

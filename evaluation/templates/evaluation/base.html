@@ -26,6 +26,10 @@
                         href="{% url 'home' %}">Home</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link {% if request.resolver_match.url_name == 'evaluate' %} active {% endif %}"
+                        href="{% url 'evaluate' %}">Do Study</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link {% if request.resolver_match.url_name == 'rate_videos' %} active {% endif %}"
                         href="{% url 'rate_videos' %}">Rate Videos</a>
                 </li>
