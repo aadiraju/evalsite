@@ -14,7 +14,7 @@
 <form method="POST">
     {% csrf_token %}
     <div class="d-flex justify-content-center">
-        <div class="card col-md-3">
+        <div class="card col-md-9">
             <div class="card-img-top">
                 <div class="ratio ratio-16x9">
                     <iframe src="https://www.youtube.com/embed/{{video.video_id}}" title="{{video.title}}"
@@ -40,6 +40,7 @@
             </div>
         </div>
     </div>
+    <!-- visually show old rating if it exists -->
     <div class="d-flex">
         {% if prev >= 0 %}
         <a role="button" class="btn btn-primary" href="{% url 'rate_videos' prev %}">Previous</a>
