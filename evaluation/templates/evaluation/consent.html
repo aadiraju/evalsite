@@ -1,0 +1,125 @@
+{% extends "evaluation/base.html" %}
+{% block title %}
+Consent Form
+{% endblock %}
+{% block content %}
+<div>
+    <div>
+        <h2 class="text-center">INFORMED CONSENT</h2>
+        <h3>Introduction</h3>
+        <p class="">
+            You are invited to participate in a study that concerns how people interact educational software and/or
+            output
+            of
+            educational software. As a participant in this study, you will be asked to complete a questionnaire and
+            interact
+            with educational software as needed.
+        </p>
+        <p class="">
+            This statement contains information about the present study that is intended to help you decide whether you
+            wish
+            to
+            participate in it. You may refuse to sign this form and not participate in this study. You should be aware
+            that
+            even
+            after you signed, you are free to withdraw at any time. If you withdraw from this study, it will not affect
+            your
+            relationship with this unit, the people involved in the study, the services it may provide to you, or the
+            University
+            of British Columbia Okanagan. If you have any questions about this study before, during, or after your
+            participation, please feel free to direct them to:
+        </p>
+        <p class="">
+            Abhineeth Adiraju <br>
+            Email: aadiraju@student.ubc.ca
+        </p>
+        <h3>Study Objectives</h3>
+        <p class="">
+            The objective of this work is to develop educational software that helps students and course administrators
+            to
+            automatically generate and interpret feedback from assignment submissions in a course.
+        </p>
+        <h3>Risks</h3>
+        <p class="">
+            There are no known risks to participants that as there is nothing more than what you would normally be doing
+            for
+            studying purposes regardless of their participation in the study.
+        </p>
+        <h3>Benefits</h3>
+        <p class="h">
+            The participants may gain a better understanding of the concepts that you practice on through the software,
+            may
+            develop an appreciation for learning analytics software, and may develop interest in the research and
+            development
+            process.
+        </p>
+        <h3>Privacy and Confidentiality</h3>
+        <p class="">
+            Questionnaires and computer logs are anonymous. Names of participants will be stored separately from
+            information
+            collected by a neutral third party from UBC Okanagan IT department, Olivier Dube. Therefore, the instructor
+            of
+            the
+            course will not get access to participants' information until after the course appeal date. During this
+            time,
+            the
+            instructor will only have access to anonymized version of your data. Information collected include all your
+            electronically submitted programming work and associated marks (such as labs and assignments). Your name
+            will
+            not be
+            associated in any way with the information collected about you or your usage of the computer during the
+            study.
+            Furthermore, because the interest of this study is to identify average responses and behavior of the entire
+            group of
+            participants, you will not be identified in any way in any written reports of this research.
+        </p>
+        <p class="">
+            Participants have a right to access their own results so long as their names and numeric tags are still
+            available.
+            The data obtained from both components of the study will be retained for at least 5 years after publication
+            in
+            secured, electronic form, which only researchers associated with this research will have access to. No audio
+            or
+            video tapes will be used. General results of the research study may be available through publications. A
+            summary
+            of
+            the results will be made available to participants upon request.
+        </p>
+        <h3>Concerns About Participants' Rights</h3>
+        <p class="">
+            If you have any concerns or complaints about your rights as a research participant and/or your experiences
+            while
+            participating in this study, contact the Research Participant Complaint Line in the UBC Office of Research
+            Ethics
+            toll free at 1-877-822-8598 or the UBC Okanagan Research Services Office at 250-807-8832. It is also
+            possible to
+            contact the Research Complaint Line by email (RSIL@ors.ubc.ca). When doing so, include the study number H19-
+            02053
+            when contacting their staff so they can better assist you.
+        </p>
+        <h3>Participation Certification</h3>
+        <p class="">
+            I have read this Consent form. I have had the opportunity to ask, and I have received answers to, any
+            questions
+            I
+            had regarding the study and the use and disclosure of information about me for the study. I agree to take
+            part
+            in
+            this study as a research participant. By my signature I affirm that I have received a copy of this Consent
+            form.
+            Your decision to participate in this study will in no way impact your course grades, class standing, or your
+            relationship with UBC.
+        </p>
+    </div>
+
+    <div>
+        <form method="POST" action="{% url 'consent' %}">
+            {% csrf_token %}
+            <div class="d-flex gap-3">
+                <button class="btn btn-primary" name="consent" type="submit">I Consent</button>
+                <button class="btn btn-secondary" name="no_consent" type="submit">I Do Not Consent</button>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

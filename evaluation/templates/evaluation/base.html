@@ -22,16 +22,21 @@
         <header class="d-flex justify-content-center py-3">
             <ul class="nav nav-pills">
                 <li class="nav-item">
-                    <a class="nav-link {% if request.resolver_match.url_name == 'home' %} active {% endif %}"
+                    <a class="nav-link {% if request.resolver_match.url_name == 'register' or request.resolver_match.url_name == 'home' %} active {% endif %}"
                         href="{% url 'home' %}">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {% if request.resolver_match.url_name == 'evaluate' %} active {% endif %}"
-                        href="{% url 'evaluate' %}">Do Study</a>
+                    <a class="nav-link {% if request.resolver_match.url_name == 'study_info' %} active {% endif %}"
+                        href="{% url 'study_info' %}">Do Study</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link {% if request.resolver_match.url_name == 'rate_videos' %} active {% endif %}"
                         href="{% url 'rate_videos' %}">Rate Videos</a>
+                </li>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {% if request.resolver_match.url_name == 'consent' %} active {% endif %}"
+                        href="{% url 'consent' %}">Consent Form</a>
                 </li>
                 <li class="nav-item">
                     {% if user.is_authenticated %}
@@ -40,10 +45,6 @@
                     <a class="nav-link {% if request.resolver_match.url_name == 'login' %} active {% endif %}"
                         href="{% url 'login' %}">Login</a>
                     {% endif %}
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link {% if request.resolver_match.url_name == 'register' %} active {% endif %}"
-                        href="{% url 'register' %}">Register</a>
                 </li>
             </ul>
         </header>

@@ -1,9 +1,10 @@
+import re
 from sre_parse import CATEGORIES
 from django.utils.timezone import datetime
 from django.http import HttpResponse
 from django.shortcuts import redirect, render
 
-from evaluation.models import Question, TrialData, UserVideoJunction, Video
+from evaluation.models import Question, TrialData, UserConsent, UserFeedback, UserVideoJunction, Video
 from evaluation.utils import Recommendations
 import pandas as pd
 import random
@@ -38,7 +39,9 @@ def get_seed_video_by_category(category):
 
 
 def home(request):
-    return render(request, 'evaluation/home.html', {'date': datetime.now()})
+    if request.user.is_authenticated:
+        return render(request, 'evaluation/home.html')
+    return redirect('register')
 
 
 def get_video_pk_by_id(video_id):
@@ -64,7 +67,7 @@ def get_next_video_to_rate(user_id):
         return 0
     else:
         next_video_id = get_video_pk_by_id(latest_video.video.pk) + 1
-        return next_video_id if next_video_id < num_videos else -1
+        return next_video_id if next_video_id < num_videos else num_videos
 
 
 def rate_videos(request, pk=None):
@@ -88,7 +91,9 @@ def rate_videos(request, pk=None):
         video = None
         current_id = pk
         try:
-            videos = Video.objects.all()
+            video_qset = Video.objects.all()
+            videos = list(video_qset)
+            random.Random(request.user.pk).shuffle(videos) #since we set the seed as user id, every user will have a uniquely shuffled order
             video = videos[current_id]
         except IndexError:
             done = True
@@ -110,21 +115,35 @@ def get_next_trial(user_id):
         return 0
     else:
         next_trial = latest_trial.trial_number + 1
-        return next_trial if next_trial < TOTAL_TRIALS else -1
+        return next_trial if next_trial < TOTAL_TRIALS else TOTAL_TRIALS
+
+
+def study_info(request):
+    return render(request, 'evaluation/study_info.html')
 
 
 def evaluate(request, trial_id=None):
     if request.method == 'POST':
         if trial_id is not None:
             form_data = request.POST
+            trial_id = int(trial_id)
+            alpha = TRIAL_CONDITIONS[trial_id]['alpha']
             video_ids = form_data.getlist('video')
+            predicted_rankings = form_data.getlist('predicted_ranking')
+            time_taken = form_data.get('time_taken')
+            video_rankings = dict(zip(video_ids, predicted_rankings))
             rankings = {}
             for video_id in video_ids:
-                ranking = form_data.get(f'rating-{video_id}', None)
-                if ranking is not None:
-                    rankings[video_id] = {
-                        'user_rating': ranking}
+                # default 0 if not found
+                ranking = form_data.get(f'rating-{video_id}', 0)
+                rankings[video_id] = {
+                    'user_rating': ranking, 'predicted_rating': video_rankings[video_id]}
             user = request.user
+
+            trial_data, created = TrialData.objects.update_or_create(
+                user=user, trial_number=trial_id,
+                defaults={'alpha_value': alpha, 'time_taken': time_taken, 'video_rankings': rankings})
+
             return redirect('evaluate', trial_id=trial_id+1)
         else:
             return redirect('home')
@@ -134,9 +153,6 @@ def evaluate(request, trial_id=None):
             return redirect('evaluate', trial_id=next_trial)
         else:
             rec = get_recommendation_object(request.user.id)
-            # for all alpha values in ALPHA_VALUES and all categories in CATEGORIES
-            # ask user to rate top 5 videos given a question for TRIAL_TIME minutes
-            # save to database
             done = False
             trial_num = trial_id
             if trial_num >= TOTAL_TRIALS:
@@ -155,4 +171,30 @@ def evaluate(request, trial_id=None):
                 videos = [(rec['video_id'], rec['ranking']) for rec in recs]
             return render(request, 'evaluation/evaluate.html',
                           {'trial_id': trial_num, 'next': trial_num + 1, 'prev': trial_num - 1,
-                           'total': TOTAL_TRIALS, 'question': question, 'videos': videos, 'category': category, 'alpha': alpha, 'done': done})
+                           'total': TOTAL_TRIALS, 'question': question, 'videos': videos, 'category': category, 'alpha': alpha, 'done': done, 'time': TRIAL_TIME})
+
+
+def submit_feedback(request):
+    if request.method == 'POST':
+        form_data = request.POST
+        feedback = form_data.get('feedback')
+        user = request.user
+        feedback_data = UserFeedback(user=user, feedback=feedback)
+        feedback_data.save()
+        return redirect('home')
+    else:
+        return redirect('home')
+
+
+def submit_consent(request):
+    if request.method == 'POST':
+        form_data = request.POST
+        user = request.user
+        if 'consent' in form_data:
+            consent_data = UserConsent(user=user, consent=True)
+        else:
+            consent_data = UserConsent(user=user, consent=False)
+        consent_data.save()
+        return redirect('home')
+    else:
+        return render(request, 'evaluation/consent.html')

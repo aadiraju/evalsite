@@ -1,0 +1,19 @@
+{% extends "evaluation/base.html" %}
+{% block title %}
+Study Info
+{% endblock %}
+{% block content %}
+<div class="alert alert-primary">
+    Hello <strong>{{user.username|default:"Guest" }}</strong>! Thank you for participating in this user study. The study
+    will proceed as follows:<br /><br />
+    You will be asked to complete 15 trials. In these trials, pretend you are a first-year Computer Science student
+    using an online programming website to do the assigned homework.<br /><br />
+    In each trial, you are given a programming question that you got stuck on, and submitted an empty solution. The
+    website shows a list of recommended videos on the right so you can refresh your memory about the topic and submit a
+    new solution. Provide a 5-star rating to each of these videos to express how well they help you build the
+    solution and click the "Next" button to move to the next trial.<br /><br />
+    <strong>Note:</strong> You do not have to watch all the videos thoroughly. You will only be given <strong>4
+        minutes</strong> to complete all the ratings in each trial.
+</div>
+<a class="btn btn-primary" href="{% url 'evaluate' %}">Start Evaluation</a>
+{% endblock %}

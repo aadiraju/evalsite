@@ -1,11 +1,24 @@
 {% extends "evaluation/base.html" %}
 {% load static %}
 {% block title %}
+Rate Videos
 {% endblock %}
 {% block content %}
 {% if done %}
-<div class="alert alert-success test-center">
+<div class="alert alert-success text-center">
     <strong>Success!</strong> Your ratings have been submitted.
+</div>
+<div class="col-lg-8">
+    <form method="POST" action="{% url 'submit_feedback' %}">
+        {% csrf_token %}
+        <div class="d-grid gap-3">
+            <div class="form-group">
+                <label class="h3" for="feedback">Comments (if any): </label>
+                <textarea class="form-control" id="feedback" name="feedback" rows="10"></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Submit Feedback</button>
+        </div>
+    </form>
 </div>
 {% else %}
 <div class="text-center mb-3">

@@ -50,3 +50,15 @@ class TrialData(models.Model):
 
     class Meta:
         unique_together = ('user', 'trial_number')
+
+
+class UserConsent(models.Model):
+    user = models.OneToOneField(
+        settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    consent = models.BooleanField(null=False, blank=False)
+
+
+class UserFeedback(models.Model):
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE,
+                             related_name='user_feedback', db_index=True)
+    feedback = models.TextField(null=True, blank=False)
