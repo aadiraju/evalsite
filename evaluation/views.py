@@ -1,5 +1,3 @@
-import re
-from sre_parse import CATEGORIES
 from django.utils.timezone import datetime
 from django.http import HttpResponse
 from django.shortcuts import redirect, render
@@ -8,6 +6,7 @@ from evaluation.models import Question, TrialData, UserConsent, UserFeedback, Us
 from evaluation.utils import Recommendations
 import pandas as pd
 import random
+import secrets
 
 ALPHA_VALUES = [0, 0.25, 0.5, 0.75, 1.0]
 CATEGORIES = ['Loops', 'Conditional', 'Array']
@@ -31,11 +30,20 @@ def generate_trial_conditions():
 TRIAL_CONDITIONS = generate_trial_conditions()
 
 
-def get_seed_video_by_category(category):
-    # select a random video from the category
+def get_seed_video_by_category(category, user_id):
+    # select their highest-rated video from the category or a random video in the category
     videos = Video.objects.filter(associated_categories__contains=category)
-    random_idx = random.randint(0, len(videos) - 1)
-    return videos[random_idx].video_id
+    uvjs = UserVideoJunction.objects.filter(user_id=user_id, video__in=videos)
+    if len(uvjs) > 0:
+        uvj_list = sorted(list(uvjs), key=lambda x: x.rating, reverse=True)
+        half_uvj_list = uvj_list[: len(uvj_list)//2]
+        if len(uvj_list) > 1:
+            return secrets.choice(half_uvj_list).video.video_id
+        else:
+            return uvj_list[0].video.video_id
+    else:
+        random_idx = random.randint(0, len(videos) - 1)
+        return videos[random_idx].video_id
 
 
 def home(request):
@@ -73,7 +81,10 @@ def get_next_video_to_rate(user_id):
 def rate_videos(request, pk=None):
     if request.method == 'POST':
         if pk is not None:
-            videos = Video.objects.all()
+            video_qset = Video.objects.all()
+            videos = list(video_qset)
+            # since we set the seed as user id, every user will have a uniquely shuffled order
+            random.Random(request.user.pk).shuffle(videos)
             video = videos[pk]
             rating = request.POST['rating']
             user = request.user
@@ -93,7 +104,8 @@ def rate_videos(request, pk=None):
         try:
             video_qset = Video.objects.all()
             videos = list(video_qset)
-            random.Random(request.user.pk).shuffle(videos) #since we set the seed as user id, every user will have a uniquely shuffled order
+            # since we set the seed as user id, every user will have a uniquely shuffled order
+            random.Random(request.user.pk).shuffle(videos)
             video = videos[current_id]
         except IndexError:
             done = True
@@ -167,7 +179,7 @@ def evaluate(request, trial_id=None):
                 category = condition_data['category']
                 question = condition_data['question']
                 recs = rec.get_recommendations(
-                    seed_video=get_seed_video_by_category(category), alpha=alpha)
+                    seed_video=get_seed_video_by_category(category, request.user.id), alpha=alpha)
                 videos = [(rec['video_id'], rec['ranking']) for rec in recs]
             return render(request, 'evaluation/evaluate.html',
                           {'trial_id': trial_num, 'next': trial_num + 1, 'prev': trial_num - 1,
